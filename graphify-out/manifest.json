@@ -1,0 +1,52 @@
+{
+  "build.gradle": {
+    "mtime": 1788279231.0674462,
+    "ast_hash": "ac33d5761b36401f536bcbb8b41e63f6",
+    "semantic_hash": "ac33d5761b36401f536bcbb8b41e63f6"
+  },
+  "gradlew": {
+    "mtime": 1788161801.09909,
+    "ast_hash": "794669d78aef1dd5c7d889ef618b311a",
+    "semantic_hash": "794669d78aef1dd5c7d889ef618b311a"
+  },
+  "settings.gradle": {
+    "mtime": 1788279214.7036088,
+    "ast_hash": "42404efc1dabbdf123af7edeefad3219",
+    "semantic_hash": "42404efc1dabbdf123af7edeefad3219"
+  },
+  "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java": {
+    "mtime": 1788304818.7371244,
+    "ast_hash": "2d2b74e9e134e6e419fdb8e6016ea1d6",
+    "semantic_hash": "2d2b74e9e134e6e419fdb8e6016ea1d6"
+  },
+  "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java": {
+    "mtime": 1788304806.2711346,
+    "ast_hash": "6bcb29a4913e4d3b9abcae1c4096033e",
+    "semantic_hash": "6bcb29a4913e4d3b9abcae1c4096033e"
+  },
+  "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java": {
+    "mtime": 1788304647.4135993,
+    "ast_hash": "43a68dac57453f96ad6f7d4a8025a5b8",
+    "semantic_hash": "43a68dac57453f96ad6f7d4a8025a5b8"
+  },
+  "src/main/java/com/skd/utilitynexusfixes/mixin/AttributeMapLegacyRemapMixin.java": {
+    "mtime": 1788304782.2726722,
+    "ast_hash": "9dd67620557016bcadc34df47e72125d",
+    "semantic_hash": "9dd67620557016bcadc34df47e72125d"
+  },
+  "src/main/java/com/skd/utilitynexusfixes/mixin/EntityCustomNameLenientMixin.java": {
+    "mtime": 1788304129.7301908,
+    "ast_hash": "b2cd3f2e892ae01c87be92305801810b",
+    "semantic_hash": "b2cd3f2e892ae01c87be92305801810b"
+  },
+  "src/main/java/net/caffeinemc/mods/sodium/client/gui/SodiumGameOptions.java": {
+    "mtime": 1788282624.5613754,
+    "ast_hash": "6b109a092e83ef9e5b763928095111cb",
+    "semantic_hash": "6b109a092e83ef9e5b763928095111cb"
+  },
+  "src/main/resources/utility_nexus_fixes.mixins.json": {
+    "mtime": 1788304755.516781,
+    "ast_hash": "2b8ca873f1b96f0b0d690d3ec6ca3044",
+    "semantic_hash": "2b8ca873f1b96f0b0d690d3ec6ca3044"
+  }
+}

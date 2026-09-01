@@ -5,6 +5,7 @@ A compatibility-patch mod for Minecraft NeoForge, fixing crashes and broken inte
 ## Features
 
 - **Iris / Sodium compat patch**: fixes a `ClassNotFoundException` / `MixinTransformerError` crash caused by Iris 1.8.12's Sodium compat mixins referencing a class (`SodiumGameOptions$PerformanceSettings`) that newer Sodium builds (0.8.13+) renamed to `SodiumOptions$PerformanceSettings`.
+- **Log-noise patches**: a mixin that makes malformed entity `CustomName` NBT fall back to plain text (stops per-tick `Failed to parse entity custom name` spam), plus a configurable Log4j2 filter (`logfilter` section of `config/utility_nexus/fixes/config.toml`) that drops benign stale-NBT lines (`Tried to load invalid item/fluid`, `Ignoring unknown attribute 'forge:'`).
 
 ## Requirements
 

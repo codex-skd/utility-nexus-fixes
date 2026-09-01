@@ -38,3 +38,6 @@ description='''Utility Nexus Fixes - Compatibility patches for third-party mod i
     versionRange="[0.8.0,)"
     ordering="AFTER"
     side="CLIENT"
+
+[[mixins]]
+config="utility_nexus_fixes.mixins.json"

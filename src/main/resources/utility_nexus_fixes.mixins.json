@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "com.skd.utilitynexusfixes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "utility_nexus_fixes.refmap.json",
+  "mixins": [
+    "EntityCustomNameLenientMixin"
+  ],
+  "client": [],
+  "server": []
+}

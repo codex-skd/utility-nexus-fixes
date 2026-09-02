@@ -27,6 +27,7 @@
 <li><strong>Iris / Sodium</strong> &mdash; fixes the <code>SodiumGameOptions$PerformanceSettings</code> startup crash from the Iris 1.8.12 &times; Sodium 0.8.13+ class rename</li>
 <li><strong>Broken entity names</strong> &mdash; a malformed <code>CustomName</code> no longer throws once per tick with a stack trace</li>
 <li><strong>Stale-save log spam</strong> &mdash; a configurable filter drops known-harmless lines left over after a mod-list change</li>
+<li><strong>Nether return portals</strong> &mdash; the return trip sends you back through the portal you actually came from, not whichever one happens to be closest</li>
 </ul>
 </td>
 <td width="35%" align="center">
@@ -61,6 +62,14 @@
 </ul>
 <blockquote><strong>Note</strong>: the <code>forge:</code> attribute lines come from old entity data using Forge-era attribute ids that NeoForge renamed. The filter only silences the warning; the stale modifier values themselves (from removed mods) are dropped by the game as before.</blockquote>
 
+<h3>&#128293; Nether return-portal fix</h3>
+<p>Vanilla sends a returning traveller to the <em>closest</em> existing portal at the scaled destination coordinates. When two portals sit near the same coordinates in the other dimension, the return trip can drop you at the wrong one. This fix remembers, per entity, which exit portal was paired with the portal you entered, and reuses it on the way back.</p>
+<ul>
+<li>Applies to Overworld&#8596;Nether travel in both directions; other portal types are untouched</li>
+<li>Falls back to vanilla search when the remembered portal no longer exists</li>
+<li>The mapping is kept in memory only &mdash; it resets on a server or world reload</li>
+</ul>
+
 <br>
 
 <h2>&#9881;&#65039; Configuration Reference</h2>
@@ -72,6 +81,8 @@
 <tr><td colspan="3"><strong>[logfilter]</strong></td></tr>
 <tr><td><code>logfilter.enabled</code></td><td>true</td><td>Master switch for the benign-log filter.</td></tr>
 <tr><td><code>logfilter.patterns</code></td><td><em>(4 built-in lines)</em></td><td>List of case-sensitive substrings; any log message containing one is dropped. Edit freely.</td></tr>
+<tr><td colspan="3"><strong>[fixes]</strong></td></tr>
+<tr><td><code>fixes.enableNetherReturnPortalFix</code></td><td>true</td><td>Remember and reuse the portal you came from on Nether return trips. Set to <code>false</code> for vanilla routing.</td></tr>
 </table>
 
 <br>
@@ -92,7 +103,7 @@
 <li>Install NeoForge 21.1.249 for Minecraft 1.21.1.</li>
 <li>Place Utility Nexus Fixes in your <code>mods</code> folder.</li>
 <li>No setup required &mdash; every patch applies automatically when its target is detected.</li>
-<li>To keep or drop different log lines, edit <code>[logfilter]</code> in <code>config/utility_nexus/fixes/config.toml</code>.</li>
+<li>To keep or drop different log lines, or to toggle individual fixes, edit <code>config/utility_nexus/fixes/config.toml</code> (<code>[logfilter]</code> and <code>[fixes]</code>).</li>
 </ol>
 
 <br>

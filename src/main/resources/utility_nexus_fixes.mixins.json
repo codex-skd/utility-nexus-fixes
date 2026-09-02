@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_21",
   "refmap": "utility_nexus_fixes.refmap.json",
   "mixins": [
-    "EntityCustomNameLenientMixin"
+    "EntityCustomNameLenientMixin",
+    "MixinNetherReturnPortalFix"
   ],
   "client": [],
   "server": []

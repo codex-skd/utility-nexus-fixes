@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.0-beta.3]
+
+### Added
+- **Nether return-portal fix** (`MixinNetherReturnPortalFix`): vanilla's `NetherPortalBlock#getExitPortal` always routes an entity to the *closest* existing portal at the scaled destination coordinates, so two Overworld portals near the same Nether coordinates can send you back through the wrong one. This wraps the `PortalForcer#findClosestPortalPosition` call and, for Overworld&#8596;Nether trips, records the origin&#8594;exit portal pairing on a per-entity attachment (`utility_nexus_fixes:return_portal_data`), then forces the remembered portal on the return trip while it is still a valid `nether_portal` block. Ported from `utility_core_fixes` (NeoForge 26.2). Toggle: `[fixes] enableNetherReturnPortalFix` in `config/utility_nexus/fixes/config.toml` (default `true`). The attachment is in-memory only (not serialized), so mappings reset on restart.
+  - Implemented with MixinExtras `@WrapOperation` instead of `@Redirect`: the standalone Sponge Mixin AP bundled for NeoForge 21.1.249 hard-errors on an unresolved obfuscation mapping for the `@Redirect` target.
+
 ## [0.0.0-beta.2]
 
 ### Fixed

@@ -1,6 +1,7 @@
 package com.skd.utilitynexusfixes;
 
 import com.mojang.logging.LogUtils;
+import com.skd.utilitynexusfixes.common.attachment.ModAttachments;
 import com.skd.utilitynexusfixes.config.UNFConfig;
 import com.skd.utilitynexusfixes.log.BenignLogFilter;
 import net.neoforged.bus.api.IEventBus;
@@ -12,13 +13,16 @@ import org.slf4j.Logger;
 @Mod(UtilityNexusFixes.MODID)
 public class UtilityNexusFixes {
     public static final String MODID = "utility_nexus_fixes";
-    public static final String VERSION = "0.0.0-beta.2";
+    public static final String VERSION = "0.0.0-beta.3";
     public static final Logger LOGGER = LogUtils.getLogger();
     private static boolean FILTER_INSTALLED = false;
 
     public UtilityNexusFixes(IEventBus modEventBus, ModContainer modContainer) {
         // Same nested layout as utility_nexus_admin: config/utility_nexus/fixes/config.toml
         modContainer.registerConfig(net.neoforged.fml.config.ModConfig.Type.COMMON, UNFConfig.SPEC, UNFConfig.CONFIG_PATH);
+
+        // Attachment types (per-entity return-portal tracking for MixinNetherReturnPortalFix)
+        ModAttachments.ATTACHMENT_TYPES.register(modEventBus);
 
         if (!FILTER_INSTALLED) {
             try {

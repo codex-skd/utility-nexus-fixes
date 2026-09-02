@@ -30,6 +30,7 @@ public final class UNFConfig {
 
     private static final ModConfigSpec.BooleanValue ENABLED;
     private static final ModConfigSpec.ConfigValue<List<? extends String>> PATTERNS;
+    private static final ModConfigSpec.BooleanValue ENABLE_NETHER_RETURN_PORTAL_FIX;
 
     static {
         ModConfigSpec.Builder builder = new ModConfigSpec.Builder();
@@ -44,6 +45,15 @@ public final class UNFConfig {
                 .comment("Log messages containing any of these substrings (case-sensitive) are dropped.",
                         "Never applied to this mod's own logger.")
                 .defineList("patterns", DEFAULT_PATTERNS, () -> "", o -> o instanceof String);
+
+        builder.pop();
+
+        builder.comment("Vanilla behaviour fixes.").push("fixes");
+
+        ENABLE_NETHER_RETURN_PORTAL_FIX = builder
+                .comment("Prevents Nether portals from sending players to the wrong destination portal on return trips",
+                        "by remembering, per entity, the portal they originally used.")
+                .define("enableNetherReturnPortalFix", true);
 
         builder.pop();
 
@@ -64,6 +74,15 @@ public final class UNFConfig {
      */
     public static boolean enabled() {
         return SPEC.isLoaded() ? ENABLED.get() : true;
+    }
+
+    /**
+     * Whether the Nether return-portal fix ({@code MixinNetherReturnPortalFix}) should apply. Like
+     * {@link #enabled()}, this is read from a mixin that can run before the COMMON config is loaded,
+     * so it falls back to the built-in default ({@code true}) until {@link ModConfigSpec#isLoaded()}.
+     */
+    public static boolean netherReturnPortalFixEnabled() {
+        return SPEC.isLoaded() ? ENABLE_NETHER_RETURN_PORTAL_FIX.get() : true;
     }
 
     @SuppressWarnings("unchecked")

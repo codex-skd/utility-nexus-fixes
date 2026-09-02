@@ -15,13 +15,13 @@
     "semantic_hash": "42404efc1dabbdf123af7edeefad3219"
   },
   "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java": {
-    "mtime": 1788346537.505646,
-    "ast_hash": "5c43ccf7f2edca20e08a03296a55dc04",
+    "mtime": 1788361999.843733,
+    "ast_hash": "6d443e7b04ae885033b3a3e4f115c776",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java": {
-    "mtime": 1788346532.022954,
-    "ast_hash": "8caf41da6d033e922d1fb0d444a3b38d",
+    "mtime": 1788361029.1557126,
+    "ast_hash": "0034c95fb298101ab6e7e71876d584fa",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java": {
@@ -45,9 +45,9 @@
     "semantic_hash": "6b109a092e83ef9e5b763928095111cb"
   },
   "src/main/resources/utility_nexus_fixes.mixins.json": {
-    "mtime": 1788304755.516781,
-    "ast_hash": "2b8ca873f1b96f0b0d690d3ec6ca3044",
-    "semantic_hash": "2b8ca873f1b96f0b0d690d3ec6ca3044"
+    "mtime": 1788361040.348493,
+    "ast_hash": "9ea96099962f657d5f8937b262efcbd9",
+    "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
     "mtime": 1788279269.8762324,
@@ -60,13 +60,13 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1788346544.4311833,
-    "ast_hash": "27fd38904c697ec5ccdee71e858e4841",
+    "mtime": 1788362008.6162722,
+    "ast_hash": "49dca0da50045609f0ccd4748106e5f1",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1788304830.592458,
-    "ast_hash": "8d0e92fdcc68bd885f6a1457b00e10b8",
+    "mtime": 1788362047.3496277,
+    "ast_hash": "a307da3024d6fc9e5f6deadd2cbcb127",
     "semantic_hash": ""
   },
   "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
-    "mtime": 1788307070.0855477,
-    "ast_hash": "7bdd24a14a12e5ae313b72ccc7c8eb3b",
+    "mtime": 1788362040.7323353,
+    "ast_hash": "a5eae0ad93fc17ec929ecded845bf60c",
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
@@ -97,6 +97,26 @@
   "src/main/resources/assets/utility_nexus_fixes/icon.png": {
     "mtime": 1788279480.581283,
     "ast_hash": "55acbeee37ea149c4128b218bb056f47",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/utilitynexusfixes/common/attachment/ModAttachments.java": {
+    "mtime": 1788360990.9063754,
+    "ast_hash": "c9de941c541adf4e0ea8cc7c7513258b",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/utilitynexusfixes/common/attachment/ReturnPortalData.java": {
+    "mtime": 1788360986.309893,
+    "ast_hash": "65570081c9e37ea00d6fa36a05b2d31e",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/utilitynexusfixes/mixin/MixinNetherReturnPortalFix.java": {
+    "mtime": 1788361140.590652,
+    "ast_hash": "917f71a006899adc21780c9fdcca492a",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.3.md": {
+    "mtime": 1788362016.3974078,
+    "ast_hash": "943f48890786a34a7afc8a1a6eea7b28",
     "semantic_hash": ""
   }
 }

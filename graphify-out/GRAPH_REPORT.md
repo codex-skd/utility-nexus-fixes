@@ -1,16 +1,16 @@
 # Graph Report - 1.21.1  (2026-09-02)
 
 ## Corpus Check
-- 18 files · ~47,456 words
+- 22 files · ~48,719 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 98 nodes · 106 edges · 18 communities (15 shown, 3 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
+- 138 nodes · 193 edges · 21 communities (18 shown, 3 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5314bc25`
+- Built from commit: `891ead37`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -28,34 +28,37 @@
 - Utility Nexus Fixes
 - Changelog
 - CLAUDE.md — utility_nexus_fixes (1.21.1)
+- PortalKey
+- ModAttachments.java
 
 ## God Nodes (most connected - your core abstractions)
 1. `Flujo de trabajo — Utility Nexus Fixes (NeoForge)` - 13 edges
-2. `UNFConfig` - 8 edges
-3. `Utility Nexus Fixes` - 7 edges
-4. `Project Variables — Utility Nexus Fixes` - 7 edges
-5. `UtilityNexusFixes` - 5 edges
-6. `BenignLogFilter` - 5 edges
-7. `EntityCustomNameLenientMixin` - 4 edges
-8. `CLAUDE.md — utility_nexus_fixes (1.21.1)` - 3 edges
-9. `Changelog` - 3 edges
-10. `AttributeMapLegacyRemapMixin` - 2 edges
+2. `PortalKey` - 10 edges
+3. `ReturnPortalData` - 9 edges
+4. `UNFConfig` - 9 edges
+5. `MixinNetherReturnPortalFix` - 7 edges
+6. `Utility Nexus Fixes` - 7 edges
+7. `Project Variables — Utility Nexus Fixes` - 7 edges
+8. `UtilityNexusFixes` - 5 edges
+9. `ModAttachments` - 5 edges
+10. `BenignLogFilter` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `ModAttachments` --references--> `ReturnPortalData`  [EXTRACTED]
+  src/main/java/com/skd/utilitynexusfixes/common/attachment/ModAttachments.java → src/main/java/com/skd/utilitynexusfixes/common/attachment/ReturnPortalData.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (18 total, 3 thin omitted)
+## Communities (21 total, 3 thin omitted)
 
 ### Community 0 - "Configuration Management"
-Cohesion: 0.25
-Nodes (5): BooleanValue, ConfigValue, ModConfigSpec, UNFConfig, SuppressWarnings
+Cohesion: 0.23
+Nodes (13): Entity, PortalForcer, ServerLevel, BlockPos, Level, Logger, Mixin, Operation (+5 more)
 
 ### Community 1 - "Logging Filter"
-Cohesion: 0.23
-Nodes (9): AbstractFilter, Level, LogEvent, Marker, Message, Override, Result, BenignLogFilter (+1 more)
+Cohesion: 0.13
+Nodes (14): AbstractFilter, BooleanValue, ConfigValue, LogEvent, Marker, Message, ModConfigSpec, Result (+6 more)
 
 ### Community 2 - "Mod Initialization"
 Cohesion: 0.36
@@ -63,7 +66,7 @@ Nodes (6): FMLCommonSetupEvent, IEventBus, Mod, ModContainer, Logger, UtilityNex
 
 ### Community 3 - "Mixin for Custom Names"
 Cohesion: 0.36
-Nodes (7): Mixin, MutableComponent, Operation, Provider, EntityCustomNameLenientMixin, Logger, WrapOperation
+Nodes (7): MutableComponent, Provider, EntityCustomNameLenientMixin, Logger, Mixin, Operation, WrapOperation
 
 ### Community 4 - "Gradle Build Script"
 Cohesion: 0.83
@@ -82,24 +85,36 @@ Cohesion: 0.25
 Nodes (7): Building from Source, Features, Installation, License, Links, Requirements, Utility Nexus Fixes
 
 ### Community 13 - "Changelog"
-Cohesion: 0.33
-Nodes (5): [0.0.0-beta.1], [0.0.0-beta.2], Added, Changelog, Fixed
+Cohesion: 0.25
+Nodes (7): [0.0.0-beta.1], [0.0.0-beta.2], [0.0.0-beta.3], Added, Added, Changelog, Fixed
 
 ### Community 14 - "CLAUDE.md — utility_nexus_fixes (1.21.1)"
 Cohesion: 0.50
 Nodes (3): CLAUDE.md — utility_nexus_fixes (1.21.1), Prioridad de instrucciones, Workflow del mod
 
+### Community 18 - "PortalKey"
+Cohesion: 0.38
+Nodes (6): BlockPos, Level, Override, ResourceKey, PortalKey, ReturnPortalData
+
+### Community 19 - "ModAttachments.java"
+Cohesion: 0.60
+Nodes (3): AttachmentType, DeferredRegister, ModAttachments
+
 ## Knowledge Gaps
-- **30 isolated node(s):** `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones`, `Fixed`, `Added` (+25 more)
+- **31 isolated node(s):** `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones`, `Added`, `Fixed` (+26 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UNFConfig` connect `Configuration Management` to `Logging Filter`?**
-  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+- **Why does `UNFConfig` connect `Logging Filter` to `Configuration Management`?**
+  _High betweenness centrality (0.060) - this node is a cross-community bridge._
+- **Why does `ReturnPortalData` connect `PortalKey` to `Configuration Management`, `ModAttachments.java`?**
+  _High betweenness centrality (0.056) - this node is a cross-community bridge._
 - **What connects `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones` to the rest of the system?**
-  _30 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _31 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Logging Filter` be split into smaller, more focused modules?**
+  _Cohesion score 0.13043478260869565 - nodes in this community are weakly interconnected._
 - **Should `Flujo de trabajo — Utility Nexus Fixes (NeoForge)` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

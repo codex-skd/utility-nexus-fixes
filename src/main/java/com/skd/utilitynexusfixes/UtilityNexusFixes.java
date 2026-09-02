@@ -12,7 +12,7 @@ import org.slf4j.Logger;
 @Mod(UtilityNexusFixes.MODID)
 public class UtilityNexusFixes {
     public static final String MODID = "utility_nexus_fixes";
-    public static final String VERSION = "0.0.0-beta.1";
+    public static final String VERSION = "0.0.0-beta.2";
     public static final Logger LOGGER = LogUtils.getLogger();
     private static boolean FILTER_INSTALLED = false;
 

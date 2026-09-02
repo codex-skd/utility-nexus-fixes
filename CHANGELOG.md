@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.0-beta.2]
+
+### Fixed
+- **Mod-loading crash from the benign-log filter**: `BenignLogFilter` is installed from the `@Mod` constructor, which runs before NeoForge loads the COMMON config. Any log line emitted during that window (e.g. Supplementaries' `DepthDataHandler` static init triggering a Netty debug log) reached `ModConfigSpec.ConfigValue#get()` before it was loaded, throwing `IllegalStateException: Cannot get config value before config is loaded`. That escaped as an `ExceptionInInitializerError` and aborted mod loading, with the crash report blaming whichever mod happened to log first (`supplementaries`). `UNFConfig.enabled()` / `UNFConfig.patterns()` now fall back to the built-in defaults until `ModConfigSpec#isLoaded()` is true, so the filter still suppresses early stale-NBT noise without touching the unloaded spec.
+
 ## [0.0.0-beta.1]
 
 ### Added

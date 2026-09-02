@@ -53,12 +53,24 @@ public final class UNFConfig {
     private UNFConfig() {
     }
 
+    /**
+     * The {@link com.skd.utilitynexusfixes.log.BenignLogFilter} is installed from the {@code @Mod}
+     * constructor, which runs during parallel mod construction &mdash; before {@code ModLoader} loads
+     * the COMMON config. Any log line emitted in that window would otherwise reach a raw
+     * {@link ModConfigSpec.ConfigValue#get()} and blow up with
+     * {@code IllegalStateException: Cannot get config value before config is loaded}, which then
+     * escapes as an {@code ExceptionInInitializerError} in whatever mod happened to log first.
+     * Fall back to the built-in defaults until the spec is loaded.
+     */
     public static boolean enabled() {
-        return ENABLED.get();
+        return SPEC.isLoaded() ? ENABLED.get() : true;
     }
 
     @SuppressWarnings("unchecked")
     public static List<String> patterns() {
+        if (!SPEC.isLoaded()) {
+            return DEFAULT_PATTERNS;
+        }
         return (List<String>) (List<?>) PATTERNS.get();
     }
 

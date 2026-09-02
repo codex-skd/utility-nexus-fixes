@@ -9,10 +9,9 @@
       "source_file": "build.gradle",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
-      "norm_label": "build.gradle",
       "id": "build",
-      "community_name": "Gradle Build Configuration"
+      "community": 7,
+      "norm_label": "build.gradle"
     },
     {
       "label": "gradlew",
@@ -24,10 +23,9 @@
         "kind": "file"
       },
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "gradlew",
       "id": "gradlew",
-      "community_name": "Gradle Build Script"
+      "community": 4,
+      "norm_label": "gradlew"
     },
     {
       "label": "gradlew script",
@@ -39,10 +37,9 @@
         "kind": "bash_entrypoint"
       },
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "gradlew script",
       "id": "gradlew__entry",
-      "community_name": "Gradle Build Script"
+      "community": 4,
+      "norm_label": "gradlew script"
     },
     {
       "label": "warn()",
@@ -54,10 +51,9 @@
         "kind": "bash_function"
       },
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "warn()",
       "id": "gradlew_warn",
-      "community_name": "Gradle Build Script"
+      "community": 4,
+      "norm_label": "warn()"
     },
     {
       "label": "die()",
@@ -69,10 +65,9 @@
         "kind": "bash_function"
       },
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "die()",
       "id": "gradlew_die",
-      "community_name": "Gradle Build Script"
+      "community": 4,
+      "norm_label": "die()"
     },
     {
       "label": "settings.gradle",
@@ -80,10 +75,9 @@
       "source_file": "settings.gradle",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "settings.gradle",
       "id": "settings",
-      "community_name": "Project Settings"
+      "community": 9,
+      "norm_label": "settings.gradle"
     },
     {
       "label": "UtilityNexusFixes.java",
@@ -91,10 +85,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "utilitynexusfixes.java",
       "id": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
-      "community_name": "Mod Initialization"
+      "community": 2,
+      "norm_label": "utilitynexusfixes.java"
     },
     {
       "label": "UtilityNexusFixes",
@@ -102,10 +95,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "utilitynexusfixes",
       "id": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes",
-      "community_name": "Mod Initialization"
+      "community": 2,
+      "norm_label": "utilitynexusfixes"
     },
     {
       "label": "Mod",
@@ -113,10 +105,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "mod",
       "id": "mod",
-      "community_name": "Mod Initialization"
+      "community": 2,
+      "norm_label": "mod"
     },
     {
       "label": "Logger",
@@ -124,10 +115,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "logger",
       "id": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_java_logger",
-      "community_name": "Mod Initialization"
+      "community": 2,
+      "norm_label": "logger"
     },
     {
       "label": ".UtilityNexusFixes()",
@@ -135,10 +125,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": ".utilitynexusfixes()",
       "id": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes",
-      "community_name": "Mod Initialization"
+      "community": 2,
+      "norm_label": ".utilitynexusfixes()"
     },
     {
       "label": "IEventBus",
@@ -146,10 +135,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "ieventbus",
       "id": "ieventbus",
-      "community_name": "Mod Initialization"
+      "community": 2,
+      "norm_label": "ieventbus"
     },
     {
       "label": "ModContainer",
@@ -157,10 +145,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "modcontainer",
       "id": "modcontainer",
-      "community_name": "Mod Initialization"
+      "community": 2,
+      "norm_label": "modcontainer"
     },
     {
       "label": ".onCommonSetup()",
@@ -168,10 +155,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": ".oncommonsetup()",
       "id": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes_oncommonsetup",
-      "community_name": "Mod Initialization"
+      "community": 2,
+      "norm_label": ".oncommonsetup()"
     },
     {
       "label": "FMLCommonSetupEvent",
@@ -179,10 +165,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "fmlcommonsetupevent",
       "id": "fmlcommonsetupevent",
-      "community_name": "Mod Initialization"
+      "community": 2,
+      "norm_label": "fmlcommonsetupevent"
     },
     {
       "label": "UNFConfig.java",
@@ -190,10 +175,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "unfconfig.java",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig",
-      "community_name": "Configuration Management"
+      "community": 0,
+      "norm_label": "unfconfig.java"
     },
     {
       "label": "UNFConfig",
@@ -201,10 +185,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "unfconfig",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig",
-      "community_name": "Configuration Management"
+      "community": 0,
+      "norm_label": "unfconfig"
     },
     {
       "label": "ModConfigSpec",
@@ -212,10 +195,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "modconfigspec",
       "id": "modconfigspec",
-      "community_name": "Configuration Management"
+      "community": 0,
+      "norm_label": "modconfigspec"
     },
     {
       "label": "BooleanValue",
@@ -223,10 +205,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "booleanvalue",
       "id": "booleanvalue",
-      "community_name": "Configuration Management"
+      "community": 0,
+      "norm_label": "booleanvalue"
     },
     {
       "label": "ConfigValue",
@@ -234,10 +215,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "configvalue",
       "id": "configvalue",
-      "community_name": "Configuration Management"
+      "community": 0,
+      "norm_label": "configvalue"
     },
     {
       "label": ".UNFConfig()",
@@ -245,32 +225,29 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": ".unfconfig()",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_unfconfig",
-      "community_name": "Configuration Management"
+      "community": 0,
+      "norm_label": ".unfconfig()"
     },
     {
       "label": ".enabled()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
-      "source_location": "L56",
+      "source_location": "L65",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": ".enabled()",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_enabled",
-      "community_name": "Configuration Management"
+      "community": 1,
+      "norm_label": ".enabled()"
     },
     {
       "label": ".patterns()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
-      "source_location": "L60",
+      "source_location": "L69",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": ".patterns()",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_patterns",
-      "community_name": "Configuration Management"
+      "community": 0,
+      "norm_label": ".patterns()"
     },
     {
       "label": "SuppressWarnings",
@@ -278,21 +255,19 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "suppresswarnings",
       "id": "suppresswarnings",
-      "community_name": "Configuration Management"
+      "community": 0,
+      "norm_label": "suppresswarnings"
     },
     {
       "label": ".getConfigPath()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
-      "source_location": "L66",
+      "source_location": "L78",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": ".getconfigpath()",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_getconfigpath",
-      "community_name": "Configuration Management"
+      "community": 0,
+      "norm_label": ".getconfigpath()"
     },
     {
       "label": "BenignLogFilter.java",
@@ -300,10 +275,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "benignlogfilter.java",
       "id": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter",
-      "community_name": "Logging Filter"
+      "community": 1,
+      "norm_label": "benignlogfilter.java"
     },
     {
       "label": "BenignLogFilter",
@@ -311,10 +285,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "benignlogfilter",
       "id": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter",
-      "community_name": "Logging Filter"
+      "community": 1,
+      "norm_label": "benignlogfilter"
     },
     {
       "label": "AbstractFilter",
@@ -322,10 +295,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "abstractfilter",
       "id": "abstractfilter",
-      "community_name": "Logging Filter"
+      "community": 1,
+      "norm_label": "abstractfilter"
     },
     {
       "label": ".BenignLogFilter()",
@@ -333,10 +305,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": ".benignlogfilter()",
       "id": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_benignlogfilter",
-      "community_name": "Logging Filter"
+      "community": 1,
+      "norm_label": ".benignlogfilter()"
     },
     {
       "label": ".check()",
@@ -344,10 +315,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": ".check()",
       "id": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_check",
-      "community_name": "Configuration Management"
+      "community": 1,
+      "norm_label": ".check()"
     },
     {
       "label": "Result",
@@ -355,10 +325,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "result",
       "id": "result",
-      "community_name": "Configuration Management"
+      "community": 1,
+      "norm_label": "result"
     },
     {
       "label": ".filter()",
@@ -366,10 +335,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": ".filter()",
       "id": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_filter",
-      "community_name": "Logging Filter"
+      "community": 1,
+      "norm_label": ".filter()"
     },
     {
       "label": "LogEvent",
@@ -377,10 +345,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "logevent",
       "id": "logevent",
-      "community_name": "Logging Filter"
+      "community": 1,
+      "norm_label": "logevent"
     },
     {
       "label": "Override",
@@ -388,10 +355,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "override",
       "id": "override",
-      "community_name": "Logging Filter"
+      "community": 1,
+      "norm_label": "override"
     },
     {
       "label": "Logger",
@@ -399,10 +365,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "logger",
       "id": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_java_logger",
-      "community_name": "Logging Filter"
+      "community": 1,
+      "norm_label": "logger"
     },
     {
       "label": "Level",
@@ -410,10 +375,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "level",
       "id": "level",
-      "community_name": "Logging Filter"
+      "community": 1,
+      "norm_label": "level"
     },
     {
       "label": "Marker",
@@ -421,10 +385,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "marker",
       "id": "marker",
-      "community_name": "Logging Filter"
+      "community": 1,
+      "norm_label": "marker"
     },
     {
       "label": "Message",
@@ -432,10 +395,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "message",
       "id": "message",
-      "community_name": "Logging Filter"
+      "community": 1,
+      "norm_label": "message"
     },
     {
       "label": "AttributeMapLegacyRemapMixin.java",
@@ -443,10 +405,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/AttributeMapLegacyRemapMixin.java",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": "attributemaplegacyremapmixin.java",
       "id": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin",
-      "community_name": "Attribute Map Remap"
+      "community": 6,
+      "norm_label": "attributemaplegacyremapmixin.java"
     },
     {
       "label": "AttributeMapLegacyRemapMixin",
@@ -454,10 +415,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/AttributeMapLegacyRemapMixin.java",
       "source_location": "L23",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": "attributemaplegacyremapmixin",
       "id": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin",
-      "community_name": "Attribute Map Remap"
+      "community": 6,
+      "norm_label": "attributemaplegacyremapmixin"
     },
     {
       "label": ".AttributeMapLegacyRemapMixin()",
@@ -465,10 +425,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/AttributeMapLegacyRemapMixin.java",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": ".attributemaplegacyremapmixin()",
       "id": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin",
-      "community_name": "Attribute Map Remap"
+      "community": 6,
+      "norm_label": ".attributemaplegacyremapmixin()"
     },
     {
       "label": "EntityCustomNameLenientMixin.java",
@@ -476,10 +435,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/EntityCustomNameLenientMixin.java",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "entitycustomnamelenientmixin.java",
       "id": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin",
-      "community_name": "Mixin for Custom Names"
+      "community": 3,
+      "norm_label": "entitycustomnamelenientmixin.java"
     },
     {
       "label": "EntityCustomNameLenientMixin",
@@ -487,10 +445,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/EntityCustomNameLenientMixin.java",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "entitycustomnamelenientmixin",
       "id": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin",
-      "community_name": "Mixin for Custom Names"
+      "community": 3,
+      "norm_label": "entitycustomnamelenientmixin"
     },
     {
       "label": "Mixin",
@@ -498,10 +455,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "mixin",
       "id": "mixin",
-      "community_name": "Mixin for Custom Names"
+      "community": 3,
+      "norm_label": "mixin"
     },
     {
       "label": "Logger",
@@ -509,10 +465,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "logger",
       "id": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_java_logger",
-      "community_name": "Mixin for Custom Names"
+      "community": 3,
+      "norm_label": "logger"
     },
     {
       "label": ".utilityNexusFixes$lenientCustomName()",
@@ -520,10 +475,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/EntityCustomNameLenientMixin.java",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": ".utilitynexusfixes$lenientcustomname()",
       "id": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin_utilitynexusfixes_lenientcustomname",
-      "community_name": "Mixin for Custom Names"
+      "community": 3,
+      "norm_label": ".utilitynexusfixes$lenientcustomname()"
     },
     {
       "label": "Provider",
@@ -531,10 +485,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "provider",
       "id": "provider",
-      "community_name": "Mixin for Custom Names"
+      "community": 3,
+      "norm_label": "provider"
     },
     {
       "label": "Operation",
@@ -542,10 +495,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "operation",
       "id": "operation",
-      "community_name": "Mixin for Custom Names"
+      "community": 3,
+      "norm_label": "operation"
     },
     {
       "label": "MutableComponent",
@@ -553,10 +505,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "mutablecomponent",
       "id": "mutablecomponent",
-      "community_name": "Mixin for Custom Names"
+      "community": 3,
+      "norm_label": "mutablecomponent"
     },
     {
       "label": "WrapOperation",
@@ -564,10 +515,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "wrapoperation",
       "id": "wrapoperation",
-      "community_name": "Mixin for Custom Names"
+      "community": 3,
+      "norm_label": "wrapoperation"
     },
     {
       "label": "SodiumGameOptions.java",
@@ -575,10 +525,9 @@
       "source_file": "src/main/java/net/caffeinemc/mods/sodium/client/gui/SodiumGameOptions.java",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": "sodiumgameoptions.java",
       "id": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions",
-      "community_name": "Performance Settings"
+      "community": 5,
+      "norm_label": "sodiumgameoptions.java"
     },
     {
       "label": "SodiumGameOptions",
@@ -586,10 +535,9 @@
       "source_file": "src/main/java/net/caffeinemc/mods/sodium/client/gui/SodiumGameOptions.java",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": "sodiumgameoptions",
       "id": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions_sodiumgameoptions",
-      "community_name": "Performance Settings"
+      "community": 5,
+      "norm_label": "sodiumgameoptions"
     },
     {
       "label": ".SodiumGameOptions()",
@@ -597,10 +545,9 @@
       "source_file": "src/main/java/net/caffeinemc/mods/sodium/client/gui/SodiumGameOptions.java",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": ".sodiumgameoptions()",
       "id": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions_sodiumgameoptions_sodiumgameoptions",
-      "community_name": "Performance Settings"
+      "community": 5,
+      "norm_label": ".sodiumgameoptions()"
     },
     {
       "label": "PerformanceSettings",
@@ -608,10 +555,439 @@
       "source_file": "src/main/java/net/caffeinemc/mods/sodium/client/gui/SodiumGameOptions.java",
       "source_location": "L33",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": "performancesettings",
       "id": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions_performancesettings",
-      "community_name": "Performance Settings"
+      "community": 5,
+      "norm_label": "performancesettings"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_claude",
+      "community": 14,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "CLAUDE.md \u2014 utility_nexus_fixes (1.21.1)",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_claude_claude_md_utility_nexus_fixes_1_21_1",
+      "community": 14,
+      "norm_label": "claude.md \u2014 utility_nexus_fixes (1.21.1)"
+    },
+    {
+      "label": "Workflow del mod",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "claude_claude_workflow_del_mod",
+      "community": 14,
+      "norm_label": "workflow del mod"
+    },
+    {
+      "label": "Prioridad de instrucciones",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "claude_claude_prioridad_de_instrucciones",
+      "community": 14,
+      "norm_label": "prioridad de instrucciones"
+    },
+    {
+      "label": "CHANGELOG.md",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog",
+      "community": 13,
+      "norm_label": "changelog.md"
+    },
+    {
+      "label": "Changelog",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog_changelog",
+      "community": 13,
+      "norm_label": "changelog"
+    },
+    {
+      "label": "[0.0.0-beta.2]",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_2",
+      "community": 13,
+      "norm_label": "[0.0.0-beta.2]"
+    },
+    {
+      "label": "Fixed",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "changelog_fixed",
+      "community": 13,
+      "norm_label": "fixed"
+    },
+    {
+      "label": "[0.0.0-beta.1]",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_1",
+      "community": 13,
+      "norm_label": "[0.0.0-beta.1]"
+    },
+    {
+      "label": "Added",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "changelog_added",
+      "community": 13,
+      "norm_label": "added"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 12,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Utility Nexus Fixes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_utility_nexus_fixes",
+      "community": 12,
+      "norm_label": "utility nexus fixes"
+    },
+    {
+      "label": "Features",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "readme_features",
+      "community": 12,
+      "norm_label": "features"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "readme_requirements",
+      "community": 12,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "readme_installation",
+      "community": 12,
+      "norm_label": "installation"
+    },
+    {
+      "label": "Building from Source",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "readme_building_from_source",
+      "community": 12,
+      "norm_label": "building from source"
+    },
+    {
+      "label": "Links",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "readme_links",
+      "community": 12,
+      "norm_label": "links"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "readme_license",
+      "community": 12,
+      "norm_label": "license"
+    },
+    {
+      "label": "WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1",
+      "community": 10,
+      "norm_label": "workflow_utility_nexus_fixes_1-21-1.md"
+    },
+    {
+      "label": "Flujo de trabajo \u2014 Utility Nexus Fixes (NeoForge)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "community": 10,
+      "norm_label": "flujo de trabajo \u2014 utility nexus fixes (neoforge)"
+    },
+    {
+      "label": "Espec\u00edfico del mod",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_espec\u00edfico_del_mod",
+      "community": 10,
+      "norm_label": "especifico del mod"
+    },
+    {
+      "label": "Qu\u00e9 es este mod",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_qu\u00e9_es_este_mod",
+      "community": 10,
+      "norm_label": "que es este mod"
+    },
+    {
+      "label": "Convenciones de nomenclatura",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_convenciones_de_nomenclatura",
+      "community": 10,
+      "norm_label": "convenciones de nomenclatura"
+    },
+    {
+      "label": "Organizaci\u00f3n y ramas",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_organizaci\u00f3n_y_ramas",
+      "community": 10,
+      "norm_label": "organizacion y ramas"
+    },
+    {
+      "label": "Estructura del proyecto",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_estructura_del_proyecto",
+      "community": 10,
+      "norm_label": "estructura del proyecto"
+    },
+    {
+      "label": "Versionado",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_versionado",
+      "community": 10,
+      "norm_label": "versionado"
+    },
+    {
+      "label": "Commits (Conventional Commits)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_commits_conventional_commits",
+      "community": 10,
+      "norm_label": "commits (conventional commits)"
+    },
+    {
+      "label": "Tags (GitLab)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_tags_gitlab",
+      "community": 10,
+      "norm_label": "tags (gitlab)"
+    },
+    {
+      "label": "Flujo por tarea",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L109",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_por_tarea",
+      "community": 10,
+      "norm_label": "flujo por tarea"
+    },
+    {
+      "label": "Buenas pr\u00e1cticas",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L157",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_buenas_pr\u00e1cticas",
+      "community": 10,
+      "norm_label": "buenas practicas"
+    },
+    {
+      "label": "Idioma",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L169",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_idioma",
+      "community": 10,
+      "norm_label": "idioma"
+    },
+    {
+      "label": "Pr\u00f3ximas funcionalidades planificadas",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L180",
+      "_origin": "ast",
+      "id": "docs_workflow_utility_nexus_fixes_1_21_1_pr\u00f3ximas_funcionalidades_planificadas",
+      "community": 10,
+      "norm_label": "proximas funcionalidades planificadas"
+    },
+    {
+      "label": "project_description.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_description.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_description",
+      "community": 15,
+      "norm_label": "project_description.md"
+    },
+    {
+      "label": "project_vars.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars",
+      "community": 11,
+      "norm_label": "project_vars.md"
+    },
+    {
+      "label": "Project Variables \u2014 Utility Nexus Fixes",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_project_variables_utility_nexus_fixes",
+      "community": 11,
+      "norm_label": "project variables \u2014 utility nexus fixes"
+    },
+    {
+      "label": "CurseForge",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_curseforge",
+      "community": 11,
+      "norm_label": "curseforge"
+    },
+    {
+      "label": "Game Versions (IDs)",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_game_versions_ids",
+      "community": 11,
+      "norm_label": "game versions (ids)"
+    },
+    {
+      "label": "Versiones",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_versiones",
+      "community": 11,
+      "norm_label": "versiones"
+    },
+    {
+      "label": "Mod",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_mod",
+      "community": 11,
+      "norm_label": "mod"
+    },
+    {
+      "label": "Rama",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_rama",
+      "community": 11,
+      "norm_label": "rama"
+    },
+    {
+      "label": "Variables para el script de subida (curseforge-upload.ps1)",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_variables_para_el_script_de_subida_curseforge_upload_ps1",
+      "community": 11,
+      "norm_label": "variables para el script de subida (curseforge-upload.ps1)"
+    },
+    {
+      "label": "0.0.0-beta.1.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.1.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_1",
+      "community": 16,
+      "norm_label": "0.0.0-beta.1.md"
+    },
+    {
+      "label": "0.0.0-beta.2.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_2",
+      "community": 17,
+      "norm_label": "0.0.0-beta.2.md"
     },
     {
       "file_type": "image",
@@ -620,8 +996,8 @@
       "edges": [],
       "community": 8,
       "norm_label": "icon for utility nexus fixes mod",
-      "id": "image_1",
-      "community_name": "Utility Nexus Fixes Icon"
+      "community_name": "Utility Nexus Fixes Icon",
+      "id": "image_1"
     }
   ],
   "links": [
@@ -631,9 +1007,9 @@
       "source_file": "gradlew",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew__entry"
+      "target": "gradlew__entry",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -641,9 +1017,9 @@
       "source_file": "gradlew",
       "source_location": "L98",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew_die"
+      "target": "gradlew_die",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -651,9 +1027,9 @@
       "source_file": "gradlew",
       "source_location": "L94",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew_warn"
+      "target": "gradlew_warn",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -662,9 +1038,9 @@
       "source_location": "L129",
       "weight": 1.0,
       "context": "call",
-      "confidence_score": 1.0,
       "source": "gradlew__entry",
-      "target": "gradlew_die"
+      "target": "gradlew_die",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -673,64 +1049,9 @@
       "source_location": "L152",
       "weight": 1.0,
       "context": "call",
-      "confidence_score": 1.0,
       "source": "gradlew__entry",
-      "target": "gradlew_warn"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
-      "target": "fmlcommonsetupevent"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
-      "target": "ieventbus"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
-      "target": "mod"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
-      "target": "modcontainer"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
-      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig"
+      "target": "gradlew_warn",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -739,9 +1060,53 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
-      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter"
+      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
+      "target": "fmlcommonsetupevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
+      "target": "ieventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
+      "target": "mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
+      "target": "modcontainer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -750,9 +1115,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
-      "target": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_java_logger"
+      "target": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_java_logger",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -760,9 +1125,20 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
-      "target": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes"
+      "target": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
+      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -771,9 +1147,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes",
-      "target": "mod"
+      "target": "mod",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -782,9 +1158,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes",
-      "target": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_java_logger"
+      "target": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_java_logger",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -792,9 +1168,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes",
-      "target": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes_oncommonsetup"
+      "target": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes_oncommonsetup",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -802,9 +1178,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/UtilityNexusFixes.java",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes",
-      "target": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes"
+      "target": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -813,9 +1189,9 @@
       "source_location": "L19",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes",
-      "target": "ieventbus"
+      "target": "ieventbus",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -824,9 +1200,9 @@
       "source_location": "L19",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes",
-      "target": "modcontainer"
+      "target": "modcontainer",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -835,9 +1211,9 @@
       "source_location": "L41",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes_utilitynexusfixes_oncommonsetup",
-      "target": "fmlcommonsetupevent"
+      "target": "fmlcommonsetupevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -846,9 +1222,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig",
-      "target": "modconfigspec"
+      "target": "modconfigspec",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -856,9 +1232,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig",
-      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig"
+      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -867,9 +1243,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter",
-      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig"
+      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -878,9 +1254,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig",
-      "target": "booleanvalue"
+      "target": "booleanvalue",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -889,9 +1265,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig",
-      "target": "configvalue"
+      "target": "configvalue",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -900,39 +1276,39 @@
       "source_location": "L29",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig",
-      "target": "modconfigspec"
+      "target": "modconfigspec",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
-      "source_location": "L56",
+      "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig",
-      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_enabled"
+      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_enabled",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
-      "source_location": "L66",
+      "source_location": "L78",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig",
-      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_getconfigpath"
+      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_getconfigpath",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
-      "source_location": "L60",
+      "source_location": "L69",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig",
-      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_patterns"
+      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_patterns",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -940,9 +1316,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig",
-      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_unfconfig"
+      "target": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_unfconfig",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -959,12 +1335,12 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
-      "source_location": "L60",
+      "source_location": "L69",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_patterns",
-      "target": "suppresswarnings"
+      "target": "suppresswarnings",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -984,9 +1360,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter",
-      "target": "abstractfilter"
+      "target": "abstractfilter",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -995,9 +1371,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter",
-      "target": "level"
+      "target": "level",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1006,9 +1382,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter",
-      "target": "logevent"
+      "target": "logevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1017,9 +1393,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter",
-      "target": "marker"
+      "target": "marker",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1028,9 +1404,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter",
-      "target": "message"
+      "target": "message",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1038,9 +1414,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter",
-      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter"
+      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1049,9 +1425,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter",
-      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_java_logger"
+      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_java_logger",
+      "confidence_score": 1.0
     },
     {
       "relation": "inherits",
@@ -1059,9 +1435,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter",
-      "target": "abstractfilter"
+      "target": "abstractfilter",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1069,9 +1445,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter",
-      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_benignlogfilter"
+      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_benignlogfilter",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1079,9 +1455,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter",
-      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_check"
+      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_check",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1089,9 +1465,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L115",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter",
-      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_filter"
+      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_filter",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1100,9 +1476,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "context": "return_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_check",
-      "target": "result"
+      "target": "result",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -1111,9 +1487,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/log/BenignLogFilter.java",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_filter",
-      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_check"
+      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_check",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1122,9 +1498,9 @@
       "source_location": "L115",
       "weight": 1.0,
       "context": "return_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_filter",
-      "target": "result"
+      "target": "result",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1133,9 +1509,9 @@
       "source_location": "L115",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_filter",
-      "target": "level"
+      "target": "level",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1144,9 +1520,9 @@
       "source_location": "L47",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_filter",
-      "target": "logevent"
+      "target": "logevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1155,9 +1531,9 @@
       "source_location": "L115",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_filter",
-      "target": "marker"
+      "target": "marker",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1166,9 +1542,9 @@
       "source_location": "L115",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_filter",
-      "target": "message"
+      "target": "message",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1177,9 +1553,9 @@
       "source_location": "L115",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_filter",
-      "target": "override"
+      "target": "override",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1188,9 +1564,9 @@
       "source_location": "L115",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_benignlogfilter_filter",
-      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_java_logger"
+      "target": "src_main_java_com_skd_utilitynexusfixes_log_benignlogfilter_java_logger",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1198,9 +1574,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/AttributeMapLegacyRemapMixin.java",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin",
-      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin"
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1208,9 +1584,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/AttributeMapLegacyRemapMixin.java",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin",
-      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin"
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1219,9 +1595,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/EntityCustomNameLenientMixin.java",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin",
-      "target": "mixin"
+      "target": "mixin",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1230,9 +1606,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/EntityCustomNameLenientMixin.java",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin",
-      "target": "mutablecomponent"
+      "target": "mutablecomponent",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1241,9 +1617,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/EntityCustomNameLenientMixin.java",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin",
-      "target": "operation"
+      "target": "operation",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1251,9 +1627,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/EntityCustomNameLenientMixin.java",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin",
-      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin"
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1262,9 +1638,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/EntityCustomNameLenientMixin.java",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin",
-      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_java_logger"
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_java_logger",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1273,9 +1649,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/EntityCustomNameLenientMixin.java",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin",
-      "target": "wrapoperation"
+      "target": "wrapoperation",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1284,9 +1660,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin",
-      "target": "mixin"
+      "target": "mixin",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1294,9 +1670,9 @@
       "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/EntityCustomNameLenientMixin.java",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin",
-      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin_utilitynexusfixes_lenientcustomname"
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin_utilitynexusfixes_lenientcustomname",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1305,9 +1681,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin",
-      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_java_logger"
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_java_logger",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1316,9 +1692,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "return_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin_utilitynexusfixes_lenientcustomname",
-      "target": "mutablecomponent"
+      "target": "mutablecomponent",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1327,9 +1703,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin_utilitynexusfixes_lenientcustomname",
-      "target": "operation"
+      "target": "operation",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1338,9 +1714,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin_utilitynexusfixes_lenientcustomname",
-      "target": "provider"
+      "target": "provider",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1349,9 +1725,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_entitycustomnamelenientmixin_entitycustomnamelenientmixin_utilitynexusfixes_lenientcustomname",
-      "target": "wrapoperation"
+      "target": "wrapoperation",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1359,9 +1735,9 @@
       "source_file": "src/main/java/net/caffeinemc/mods/sodium/client/gui/SodiumGameOptions.java",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions",
-      "target": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions_performancesettings"
+      "target": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions_performancesettings",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1369,9 +1745,9 @@
       "source_file": "src/main/java/net/caffeinemc/mods/sodium/client/gui/SodiumGameOptions.java",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions",
-      "target": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions_sodiumgameoptions"
+      "target": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions_sodiumgameoptions",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1379,11 +1755,361 @@
       "source_file": "src/main/java/net/caffeinemc/mods/sodium/client/gui/SodiumGameOptions.java",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions_sodiumgameoptions",
-      "target": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions_sodiumgameoptions_sodiumgameoptions"
+      "target": "src_main_java_net_caffeinemc_mods_sodium_client_gui_sodiumgameoptions_sodiumgameoptions_sodiumgameoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_claude",
+      "target": "claude_claude_claude_md_utility_nexus_fixes_1_21_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "claude_claude_claude_md_utility_nexus_fixes_1_21_1",
+      "target": "claude_claude_prioridad_de_instrucciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "claude_claude_claude_md_utility_nexus_fixes_1_21_1",
+      "target": "claude_claude_workflow_del_mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "changelog",
+      "target": "changelog_changelog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_2",
+      "target": "changelog_fixed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_1",
+      "target": "changelog_added",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_utility_nexus_fixes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "readme_utility_nexus_fixes",
+      "target": "readme_building_from_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "readme_utility_nexus_fixes",
+      "target": "readme_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "readme_utility_nexus_fixes",
+      "target": "readme_installation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "readme_utility_nexus_fixes",
+      "target": "readme_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "readme_utility_nexus_fixes",
+      "target": "readme_links",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "readme_utility_nexus_fixes",
+      "target": "readme_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_buenas_pr\u00e1cticas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_commits_conventional_commits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_convenciones_de_nomenclatura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_espec\u00edfico_del_mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_estructura_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_por_tarea",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L169",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_idioma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_organizaci\u00f3n_y_ramas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_pr\u00f3ximas_funcionalidades_planificadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_qu\u00e9_es_este_mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_tags_gitlab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_UTILITY_NEXUS_FIXES_1-21-1.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "docs_workflow_utility_nexus_fixes_1_21_1_flujo_de_trabajo_utility_nexus_fixes_neoforge",
+      "target": "docs_workflow_utility_nexus_fixes_1_21_1_versionado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars",
+      "target": "docs_curseforge_project_vars_project_variables_utility_nexus_fixes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_project_variables_utility_nexus_fixes",
+      "target": "docs_curseforge_project_vars_curseforge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_project_variables_utility_nexus_fixes",
+      "target": "docs_curseforge_project_vars_game_versions_ids",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_project_variables_utility_nexus_fixes",
+      "target": "docs_curseforge_project_vars_mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_project_variables_utility_nexus_fixes",
+      "target": "docs_curseforge_project_vars_rama",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_project_variables_utility_nexus_fixes",
+      "target": "docs_curseforge_project_vars_variables_para_el_script_de_subida_curseforge_upload_ps1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_project_variables_utility_nexus_fixes",
+      "target": "docs_curseforge_project_vars_versiones",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ec815c1f7375d4b4f7e3a50620bc3d747d555d43"
+  "built_at_commit": "5314bc252f6ce7fd0d4beeab370de5d56cdad289"
 }

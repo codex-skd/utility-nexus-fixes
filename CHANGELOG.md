@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0] - 2026-09-09
+
+First stable release for **Minecraft 1.21.1 / NeoForge 21.1.249** (Java 21). Same code as
+`0.0.0-beta.3`; promoted to stable after running in the *(Develop) Mystical Realms* modded-server
+pack.
+
+### Summary of the beta line
+
+- **beta.1** — Iris / Sodium compat patch (fixes the
+  `ClassNotFoundException: SodiumGameOptions$PerformanceSettings` crash from Iris 1.8.12 against
+  Sodium 0.8.13+); lenient entity `CustomName` parse mixin (malformed NBT falls back to plain text
+  instead of spamming `Failed to parse entity custom name` every tick); configurable Log4j2
+  `BenignLogFilter` for a small allow-list of benign stale-NBT / legacy-attribute log lines
+  (`[logfilter]` in `config/utility_nexus/fixes/config.toml`).
+- **beta.2** — fixed a mod-loading crash: the benign-log filter is installed from the `@Mod`
+  constructor, before the COMMON config loads, so an early log line hit
+  `ModConfigSpec.ConfigValue#get()` and threw. `UNFConfig` now falls back to the built-in
+  defaults until `ModConfigSpec#isLoaded()` is true.
+- **beta.3** — Nether return-portal fix (`MixinNetherReturnPortalFix`): records the
+  origin → exit portal pairing per entity on an Overworld↔Nether trip and forces the remembered
+  portal on the return trip, instead of vanilla's "closest portal" search. Ported from
+  `utility_core_fixes` (26.2); toggle `[fixes] enableNetherReturnPortalFix` (default `true`).
+  In-memory only (mappings reset on restart).
+
+### Notes
+
+- No code change relative to `0.0.0-beta.3`. Verified: `./gradlew clean build` is green.
+
 ## [0.0.0-beta.3]
 
 ### Added

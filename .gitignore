@@ -9,6 +9,7 @@ run/
 # IDE
 .vscode/
 .idea/
+.eclipse/
 *.iml
 *.ipr
 *.iws

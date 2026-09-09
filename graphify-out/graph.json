@@ -356,7 +356,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig",
-      "community": 1,
+      "community": 21,
       "norm_label": "unfconfig.java"
     },
     {
@@ -366,7 +366,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig",
-      "community": 1,
+      "community": 21,
       "norm_label": "unfconfig"
     },
     {
@@ -376,7 +376,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "modconfigspec",
-      "community": 1,
+      "community": 21,
       "norm_label": "modconfigspec"
     },
     {
@@ -386,7 +386,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "booleanvalue",
-      "community": 1,
+      "community": 21,
       "norm_label": "booleanvalue"
     },
     {
@@ -396,7 +396,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "configvalue",
-      "community": 1,
+      "community": 21,
       "norm_label": "configvalue"
     },
     {
@@ -406,7 +406,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_unfconfig",
-      "community": 1,
+      "community": 21,
       "norm_label": ".unfconfig()"
     },
     {
@@ -426,7 +426,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_netherreturnportalfixenabled",
-      "community": 0,
+      "community": 21,
       "norm_label": ".netherreturnportalfixenabled()"
     },
     {
@@ -436,7 +436,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_patterns",
-      "community": 1,
+      "community": 21,
       "norm_label": ".patterns()"
     },
     {
@@ -446,7 +446,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "suppresswarnings",
-      "community": 1,
+      "community": 21,
       "norm_label": "suppresswarnings"
     },
     {
@@ -456,7 +456,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_getconfigpath",
-      "community": 1,
+      "community": 21,
       "norm_label": ".getconfigpath()"
     },
     {
@@ -990,10 +990,40 @@
       "norm_label": "changelog"
     },
     {
-      "label": "[0.0.0-beta.3]",
+      "label": "[1.0.0] - 2026-09-09",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L5",
+      "_origin": "ast",
+      "id": "changelog_1_0_0_2026_09_09",
+      "community": 13,
+      "norm_label": "[1.0.0] - 2026-09-09"
+    },
+    {
+      "label": "Summary of the beta line",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "changelog_summary_of_the_beta_line",
+      "community": 13,
+      "norm_label": "summary of the beta line"
+    },
+    {
+      "label": "Notes",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "changelog_notes",
+      "community": 13,
+      "norm_label": "notes"
+    },
+    {
+      "label": "[0.0.0-beta.3]",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3",
       "community": 13,
@@ -1003,7 +1033,7 @@
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L7",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "changelog_added",
       "community": 13,
@@ -1013,7 +1043,7 @@
       "label": "[0.0.0-beta.2]",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L11",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2",
       "community": 13,
@@ -1023,7 +1053,7 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L13",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "changelog_fixed",
       "community": 13,
@@ -1033,7 +1063,7 @@
       "label": "[0.0.0-beta.1]",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L16",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1",
       "community": 13,
@@ -1043,9 +1073,9 @@
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L18",
+      "source_location": "L46",
       "_origin": "ast",
-      "id": "changelog_added_18",
+      "id": "changelog_added_46",
       "community": 13,
       "norm_label": "added"
     },
@@ -1388,6 +1418,16 @@
       "id": "docs_curseforge_versions_0_0_0_beta_3",
       "community": 20,
       "norm_label": "0.0.0-beta.3.md"
+    },
+    {
+      "label": "1.0.0.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.0.0.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_0_0",
+      "community": 22,
+      "norm_label": "1.0.0.md"
     },
     {
       "file_type": "image",
@@ -3122,7 +3162,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L16",
+      "source_location": "L44",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_1",
@@ -3132,7 +3172,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L11",
+      "source_location": "L39",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_2",
@@ -3142,7 +3182,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L5",
+      "source_location": "L33",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_3",
@@ -3152,7 +3192,37 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L7",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_1_0_0_2026_09_09",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "changelog_1_0_0_2026_09_09",
+      "target": "changelog_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "changelog_1_0_0_2026_09_09",
+      "target": "changelog_summary_of_the_beta_line",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L35",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_3",
       "target": "changelog_added",
@@ -3162,7 +3232,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L13",
+      "source_location": "L41",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_2",
       "target": "changelog_fixed",
@@ -3172,10 +3242,10 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L18",
+      "source_location": "L46",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_1",
-      "target": "changelog_added_18",
+      "target": "changelog_added_46",
       "confidence_score": 1.0
     },
     {
@@ -3450,5 +3520,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "891ead3766cbd96428647d83336fea415829c15a"
+  "built_at_commit": "2122546bf60750975262057cb2e44cdc503f3275"
 }

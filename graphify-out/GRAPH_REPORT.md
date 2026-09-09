@@ -1,16 +1,16 @@
-# Graph Report - 1.21.1  (2026-09-02)
+# Graph Report - 1.21.1  (2026-09-09)
 
 ## Corpus Check
-- 22 files · ~48,719 words
+- 23 files · ~49,136 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 138 nodes · 193 edges · 21 communities (18 shown, 3 thin omitted)
+- 142 nodes · 196 edges · 23 communities (20 shown, 3 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `891ead37`
+- Built from commit: `2122546b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,6 +30,7 @@
 - CLAUDE.md — utility_nexus_fixes (1.21.1)
 - PortalKey
 - ModAttachments.java
+- UNFConfig
 
 ## God Nodes (most connected - your core abstractions)
 1. `Flujo de trabajo — Utility Nexus Fixes (NeoForge)` - 13 edges
@@ -50,15 +51,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (21 total, 3 thin omitted)
+## Communities (23 total, 3 thin omitted)
 
 ### Community 0 - "Configuration Management"
-Cohesion: 0.23
+Cohesion: 0.25
 Nodes (13): Entity, PortalForcer, ServerLevel, BlockPos, Level, Logger, Mixin, Operation (+5 more)
 
 ### Community 1 - "Logging Filter"
-Cohesion: 0.13
-Nodes (14): AbstractFilter, BooleanValue, ConfigValue, LogEvent, Marker, Message, ModConfigSpec, Result (+6 more)
+Cohesion: 0.23
+Nodes (9): AbstractFilter, LogEvent, Marker, Message, Result, BenignLogFilter, Level, Logger (+1 more)
 
 ### Community 2 - "Mod Initialization"
 Cohesion: 0.36
@@ -85,8 +86,8 @@ Cohesion: 0.25
 Nodes (7): Building from Source, Features, Installation, License, Links, Requirements, Utility Nexus Fixes
 
 ### Community 13 - "Changelog"
-Cohesion: 0.25
-Nodes (7): [0.0.0-beta.1], [0.0.0-beta.2], [0.0.0-beta.3], Added, Added, Changelog, Fixed
+Cohesion: 0.18
+Nodes (10): [0.0.0-beta.1], [0.0.0-beta.2], [0.0.0-beta.3], [1.0.0] - 2026-09-09, Added, Added, Changelog, Fixed (+2 more)
 
 ### Community 14 - "CLAUDE.md — utility_nexus_fixes (1.21.1)"
 Cohesion: 0.50
@@ -100,21 +101,23 @@ Nodes (6): BlockPos, Level, Override, ResourceKey, PortalKey, ReturnPortalData
 Cohesion: 0.60
 Nodes (3): AttachmentType, DeferredRegister, ModAttachments
 
+### Community 21 - "UNFConfig"
+Cohesion: 0.22
+Nodes (5): BooleanValue, ConfigValue, ModConfigSpec, UNFConfig, SuppressWarnings
+
 ## Knowledge Gaps
-- **31 isolated node(s):** `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones`, `Added`, `Fixed` (+26 more)
+- **33 isolated node(s):** `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones`, `Summary of the beta line`, `Notes` (+28 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UNFConfig` connect `Logging Filter` to `Configuration Management`?**
-  _High betweenness centrality (0.060) - this node is a cross-community bridge._
+- **Why does `UNFConfig` connect `UNFConfig` to `Logging Filter`?**
+  _High betweenness centrality (0.057) - this node is a cross-community bridge._
 - **Why does `ReturnPortalData` connect `PortalKey` to `Configuration Management`, `ModAttachments.java`?**
-  _High betweenness centrality (0.056) - this node is a cross-community bridge._
+  _High betweenness centrality (0.053) - this node is a cross-community bridge._
 - **What connects `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones` to the rest of the system?**
-  _31 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Logging Filter` be split into smaller, more focused modules?**
-  _Cohesion score 0.13043478260869565 - nodes in this community are weakly interconnected._
+  _33 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Flujo de trabajo — Utility Nexus Fixes (NeoForge)` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

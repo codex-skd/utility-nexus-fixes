@@ -39,5 +39,12 @@ description='''Utility Nexus Fixes - Compatibility patches for third-party mod i
     ordering="AFTER"
     side="CLIENT"
 
+[[dependencies.${mod_id}]]
+    modId="bettervillageranimations"
+    type="optional"
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
 [[mixins]]
 config="utility_nexus_fixes.mixins.json"

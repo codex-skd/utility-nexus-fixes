@@ -2,12 +2,16 @@
   "required": false,
   "minVersion": "0.8.5",
   "package": "com.skd.utilitynexusfixes.mixin",
+  "plugin": "com.skd.utilitynexusfixes.mixin.BvaMixinPlugin",
   "compatibilityLevel": "JAVA_21",
   "refmap": "utility_nexus_fixes.refmap.json",
   "mixins": [
     "EntityCustomNameLenientMixin",
     "MixinNetherReturnPortalFix"
   ],
-  "client": [],
+  "client": [
+    "BvaDialogueMixin",
+    "BvaConversationMixin"
+  ],
   "server": []
 }

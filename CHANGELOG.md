@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2026-09-14
+
+### Added
+- **Better Villager Animations dialogue translation patch** (optional, client-side): that mod keeps its villager speech-bubble flavor text as hardcoded Java strings, so normal `lang` files cannot translate it. Two soft client-only mixins (`BvaDialogueMixin`, `BvaConversationMixin`, gated by `BvaMixinPlugin` on `bettervillageranimations` being present) intercept every `String.replace(CharSequence, CharSequence)` call inside each dialogue catalog's `select(...)` method — translating the raw English template *before* the mod substitutes its own placeholder tokens (`{player}`, `{speaker_goods}`, `{time}`, `{weather}`, etc.) — and substitute the Spanish text from `assets/bettervillageranimations/dialogue/es_es.json` supplied by a separately installed resource pack. Active only when both mods are present and the client language is exactly `es_es`; every other case returns the original line unchanged. The table reloads with client resource packs (`RegisterClientReloadListenersEvent`) and the lookup never throws.
+
 ## [1.0.0] - 2026-09-09
 
 First stable release for **Minecraft 1.21.1 / NeoForge 21.1.249** (Java 21). Same code as

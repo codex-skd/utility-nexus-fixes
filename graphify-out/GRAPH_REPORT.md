@@ -1,16 +1,16 @@
-# Graph Report - 1.21.1  (2026-09-09)
+# Graph Report - 1.21.1  (2026-09-14)
 
 ## Corpus Check
-- 23 files · ~49,136 words
+- 29 files · ~50,852 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 142 nodes · 196 edges · 23 communities (20 shown, 3 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.8)
+- 191 nodes · 274 edges · 26 communities (23 shown, 3 thin omitted)
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2122546b`
+- Built from commit: `cf24a482`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -31,18 +31,20 @@
 - PortalKey
 - ModAttachments.java
 - UNFConfig
+- BvaClientSetup.java
+- BvaConversationMixin.java
 
 ## God Nodes (most connected - your core abstractions)
 1. `Flujo de trabajo — Utility Nexus Fixes (NeoForge)` - 13 edges
 2. `PortalKey` - 10 edges
-3. `ReturnPortalData` - 9 edges
-4. `UNFConfig` - 9 edges
-5. `MixinNetherReturnPortalFix` - 7 edges
-6. `Utility Nexus Fixes` - 7 edges
-7. `Project Variables — Utility Nexus Fixes` - 7 edges
-8. `UtilityNexusFixes` - 5 edges
-9. `ModAttachments` - 5 edges
-10. `BenignLogFilter` - 5 edges
+3. `BvaDialogueTranslations` - 10 edges
+4. `ReturnPortalData` - 9 edges
+5. `UNFConfig` - 9 edges
+6. `BvaMixinPlugin` - 9 edges
+7. `MixinNetherReturnPortalFix` - 7 edges
+8. `Utility Nexus Fixes` - 7 edges
+9. `Project Variables — Utility Nexus Fixes` - 7 edges
+10. `Changelog` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `ModAttachments` --references--> `ReturnPortalData`  [EXTRACTED]
@@ -51,19 +53,19 @@
 ## Import Cycles
 - None detected.
 
-## Communities (23 total, 3 thin omitted)
+## Communities (26 total, 3 thin omitted)
 
 ### Community 0 - "Configuration Management"
 Cohesion: 0.25
 Nodes (13): Entity, PortalForcer, ServerLevel, BlockPos, Level, Logger, Mixin, Operation (+5 more)
 
 ### Community 1 - "Logging Filter"
-Cohesion: 0.23
-Nodes (9): AbstractFilter, LogEvent, Marker, Message, Result, BenignLogFilter, Level, Logger (+1 more)
+Cohesion: 0.12
+Nodes (14): AbstractFilter, BooleanValue, ConfigValue, LogEvent, Marker, Message, ModConfigSpec, Result (+6 more)
 
 ### Community 2 - "Mod Initialization"
-Cohesion: 0.36
-Nodes (6): FMLCommonSetupEvent, IEventBus, Mod, ModContainer, Logger, UtilityNexusFixes
+Cohesion: 0.22
+Nodes (9): AttachmentType, DeferredRegister, FMLCommonSetupEvent, IEventBus, Mod, ModContainer, ModAttachments, Logger (+1 more)
 
 ### Community 3 - "Mixin for Custom Names"
 Cohesion: 0.36
@@ -86,8 +88,8 @@ Cohesion: 0.25
 Nodes (7): Building from Source, Features, Installation, License, Links, Requirements, Utility Nexus Fixes
 
 ### Community 13 - "Changelog"
-Cohesion: 0.18
-Nodes (10): [0.0.0-beta.1], [0.0.0-beta.2], [0.0.0-beta.3], [1.0.0] - 2026-09-09, Added, Added, Changelog, Fixed (+2 more)
+Cohesion: 0.15
+Nodes (12): [0.0.0-beta.1], [0.0.0-beta.2], [0.0.0-beta.3], [1.0.0] - 2026-09-09, [1.1.0] - 2026-09-14, Added, Added, Added (+4 more)
 
 ### Community 14 - "CLAUDE.md — utility_nexus_fixes (1.21.1)"
 Cohesion: 0.50
@@ -98,26 +100,34 @@ Cohesion: 0.38
 Nodes (6): BlockPos, Level, Override, ResourceKey, PortalKey, ReturnPortalData
 
 ### Community 19 - "ModAttachments.java"
-Cohesion: 0.60
-Nodes (3): AttachmentType, DeferredRegister, ModAttachments
+Cohesion: 0.18
+Nodes (12): Gson, ResourceLocation, ResourceManager, ResourceManagerReloadListener, BvaDialogueTranslations, Logger, BvaDialogueMixin, Mixin (+4 more)
 
 ### Community 21 - "UNFConfig"
-Cohesion: 0.22
-Nodes (5): BooleanValue, ConfigValue, ModConfigSpec, UNFConfig, SuppressWarnings
+Cohesion: 0.29
+Nodes (5): ClassNode, IMixinConfigPlugin, IMixinInfo, BvaMixinPlugin, Override
+
+### Community 23 - "BvaClientSetup.java"
+Cohesion: 0.43
+Nodes (4): EventBusSubscriber, RegisterClientReloadListenersEvent, BvaClientSetup, SubscribeEvent
+
+### Community 24 - "BvaConversationMixin.java"
+Cohesion: 0.48
+Nodes (5): BvaConversationMixin, Mixin, Operation, Pseudo, WrapOperation
 
 ## Knowledge Gaps
-- **33 isolated node(s):** `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones`, `Summary of the beta line`, `Notes` (+28 more)
+- **34 isolated node(s):** `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones`, `Added`, `Summary of the beta line` (+29 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UNFConfig` connect `UNFConfig` to `Logging Filter`?**
-  _High betweenness centrality (0.057) - this node is a cross-community bridge._
-- **Why does `ReturnPortalData` connect `PortalKey` to `Configuration Management`, `ModAttachments.java`?**
-  _High betweenness centrality (0.053) - this node is a cross-community bridge._
+- **Why does `ReturnPortalData` connect `PortalKey` to `Configuration Management`, `Mod Initialization`?**
+  _High betweenness centrality (0.034) - this node is a cross-community bridge._
 - **What connects `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones` to the rest of the system?**
-  _33 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _34 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Logging Filter` be split into smaller, more focused modules?**
+  _Cohesion score 0.12318840579710146 - nodes in this community are weakly interconnected._
 - **Should `Flujo de trabajo — Utility Nexus Fixes (NeoForge)` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

@@ -45,8 +45,8 @@
     "semantic_hash": "6b109a092e83ef9e5b763928095111cb"
   },
   "src/main/resources/utility_nexus_fixes.mixins.json": {
-    "mtime": 1788361040.348493,
-    "ast_hash": "9ea96099962f657d5f8937b262efcbd9",
+    "mtime": 1789381757.5867412,
+    "ast_hash": "284e5913c11aab44dfd0fd2bdd40c7c7",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1788944048.9179454,
-    "ast_hash": "99e4f4a43bec1ee5b8a1655d78e40cf4",
+    "mtime": 1789384296.3834164,
+    "ast_hash": "747c1d6a5fcbfe764be64545d7b7e163",
     "semantic_hash": ""
   },
   "README.md": {
@@ -122,6 +122,36 @@
   "docs/curseforge/versions/1.0.0.md": {
     "mtime": 1788944059.5970595,
     "ast_hash": "afe006aa226d07617d2bec0d400bbba6",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java": {
+    "mtime": 1789381592.9305892,
+    "ast_hash": "f8e85a3993910d7f7eca33f482b7906b",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java": {
+    "mtime": 1789381587.4539144,
+    "ast_hash": "5ffd797469c6802faf25011694b477f4",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java": {
+    "mtime": 1789382490.1921217,
+    "ast_hash": "edd7bce93e9bd20010aaad868efbf31c",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java": {
+    "mtime": 1789382478.8680546,
+    "ast_hash": "dc2a034a33388327be170f56a71cd6e9",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java": {
+    "mtime": 1789381736.9403183,
+    "ast_hash": "d01ee73c8b21258bbd71c3d85552c529",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.1.0.md": {
+    "mtime": 1789384309.354873,
+    "ast_hash": "f3269cb9532ff5b167922f50da2768d4",
     "semantic_hash": ""
   }
 }

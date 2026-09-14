@@ -176,7 +176,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_common_attachment_modattachments",
-      "community": 19,
+      "community": 2,
       "norm_label": "modattachments.java"
     },
     {
@@ -186,7 +186,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_common_attachment_modattachments_modattachments",
-      "community": 19,
+      "community": 2,
       "norm_label": "modattachments"
     },
     {
@@ -196,7 +196,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "deferredregister",
-      "community": 19,
+      "community": 2,
       "norm_label": "deferredregister"
     },
     {
@@ -206,7 +206,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "attachmenttype",
-      "community": 19,
+      "community": 2,
       "norm_label": "attachmenttype"
     },
     {
@@ -216,7 +216,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_common_attachment_modattachments_modattachments_modattachments",
-      "community": 19,
+      "community": 2,
       "norm_label": ".modattachments()"
     },
     {
@@ -350,13 +350,203 @@
       "norm_label": ".hashcode()"
     },
     {
+      "label": "BvaClientSetup.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup",
+      "community": 23,
+      "norm_label": "bvaclientsetup.java"
+    },
+    {
+      "label": "BvaClientSetup",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup_bvaclientsetup",
+      "community": 23,
+      "norm_label": "bvaclientsetup"
+    },
+    {
+      "label": "EventBusSubscriber",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "eventbussubscriber",
+      "community": 23,
+      "norm_label": "eventbussubscriber"
+    },
+    {
+      "label": ".BvaClientSetup()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup_bvaclientsetup_bvaclientsetup",
+      "community": 23,
+      "norm_label": ".bvaclientsetup()"
+    },
+    {
+      "label": ".onRegisterClientReloadListeners()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup_bvaclientsetup_onregisterclientreloadlisteners",
+      "community": 23,
+      "norm_label": ".onregisterclientreloadlisteners()"
+    },
+    {
+      "label": "RegisterClientReloadListenersEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "registerclientreloadlistenersevent",
+      "community": 23,
+      "norm_label": "registerclientreloadlistenersevent"
+    },
+    {
+      "label": "SubscribeEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "subscribeevent",
+      "community": 23,
+      "norm_label": "subscribeevent"
+    },
+    {
+      "label": "BvaDialogueTranslations.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations",
+      "community": 19,
+      "norm_label": "bvadialoguetranslations.java"
+    },
+    {
+      "label": "BvaDialogueTranslations",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations",
+      "community": 19,
+      "norm_label": "bvadialoguetranslations"
+    },
+    {
+      "label": "Logger",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_java_logger",
+      "community": 19,
+      "norm_label": "logger"
+    },
+    {
+      "label": "ResourceLocation",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "resourcelocation",
+      "community": 19,
+      "norm_label": "resourcelocation"
+    },
+    {
+      "label": "Gson",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "gson",
+      "community": 19,
+      "norm_label": "gson"
+    },
+    {
+      "label": "Type",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "type",
+      "community": 19,
+      "norm_label": "type"
+    },
+    {
+      "label": "ResourceManagerReloadListener",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "resourcemanagerreloadlistener",
+      "community": 19,
+      "norm_label": "resourcemanagerreloadlistener"
+    },
+    {
+      "label": ".BvaDialogueTranslations()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_bvadialoguetranslations",
+      "community": 19,
+      "norm_label": ".bvadialoguetranslations()"
+    },
+    {
+      "label": ".reload()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_reload",
+      "community": 19,
+      "norm_label": ".reload()"
+    },
+    {
+      "label": "ResourceManager",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "resourcemanager",
+      "community": 19,
+      "norm_label": "resourcemanager"
+    },
+    {
+      "label": ".translate()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_translate",
+      "community": 19,
+      "norm_label": ".translate()"
+    },
+    {
+      "label": ".getSelectedLanguageCode()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L132",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_getselectedlanguagecode",
+      "community": 19,
+      "norm_label": ".getselectedlanguagecode()"
+    },
+    {
       "label": "UNFConfig.java",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig",
-      "community": 21,
+      "community": 1,
       "norm_label": "unfconfig.java"
     },
     {
@@ -366,7 +556,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig",
-      "community": 21,
+      "community": 1,
       "norm_label": "unfconfig"
     },
     {
@@ -376,7 +566,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "modconfigspec",
-      "community": 21,
+      "community": 1,
       "norm_label": "modconfigspec"
     },
     {
@@ -386,7 +576,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "booleanvalue",
-      "community": 21,
+      "community": 1,
       "norm_label": "booleanvalue"
     },
     {
@@ -396,7 +586,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "configvalue",
-      "community": 21,
+      "community": 1,
       "norm_label": "configvalue"
     },
     {
@@ -406,7 +596,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_unfconfig",
-      "community": 21,
+      "community": 1,
       "norm_label": ".unfconfig()"
     },
     {
@@ -426,7 +616,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_netherreturnportalfixenabled",
-      "community": 21,
+      "community": 1,
       "norm_label": ".netherreturnportalfixenabled()"
     },
     {
@@ -436,7 +626,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_patterns",
-      "community": 21,
+      "community": 1,
       "norm_label": ".patterns()"
     },
     {
@@ -446,7 +636,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "suppresswarnings",
-      "community": 21,
+      "community": 1,
       "norm_label": "suppresswarnings"
     },
     {
@@ -456,7 +646,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "src_main_java_com_skd_utilitynexusfixes_config_unfconfig_unfconfig_getconfigpath",
-      "community": 21,
+      "community": 1,
       "norm_label": ".getconfigpath()"
     },
     {
@@ -618,6 +808,276 @@
       "id": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin",
       "community": 6,
       "norm_label": ".attributemaplegacyremapmixin()"
+    },
+    {
+      "label": "BvaConversationMixin.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin",
+      "community": 24,
+      "norm_label": "bvaconversationmixin.java"
+    },
+    {
+      "label": "BvaConversationMixin",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_bvaconversationmixin",
+      "community": 24,
+      "norm_label": "bvaconversationmixin"
+    },
+    {
+      "label": "Pseudo",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_pseudo",
+      "community": 24,
+      "norm_label": "pseudo"
+    },
+    {
+      "label": "Mixin",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_mixin",
+      "community": 24,
+      "norm_label": "mixin"
+    },
+    {
+      "label": ".utilityNexusFixes$translateBeforeReplace()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_bvaconversationmixin_utilitynexusfixes_translatebeforereplace",
+      "community": 24,
+      "norm_label": ".utilitynexusfixes$translatebeforereplace()"
+    },
+    {
+      "label": "Operation",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_operation",
+      "community": 24,
+      "norm_label": "operation"
+    },
+    {
+      "label": "WrapOperation",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_wrapoperation",
+      "community": 24,
+      "norm_label": "wrapoperation"
+    },
+    {
+      "label": "BvaDialogueMixin.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin",
+      "community": 19,
+      "norm_label": "bvadialoguemixin.java"
+    },
+    {
+      "label": "BvaDialogueMixin",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_bvadialoguemixin",
+      "community": 19,
+      "norm_label": "bvadialoguemixin"
+    },
+    {
+      "label": "Pseudo",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_pseudo",
+      "community": 19,
+      "norm_label": "pseudo"
+    },
+    {
+      "label": "Mixin",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_mixin",
+      "community": 19,
+      "norm_label": "mixin"
+    },
+    {
+      "label": ".utilityNexusFixes$translateBeforeReplace()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_bvadialoguemixin_utilitynexusfixes_translatebeforereplace",
+      "community": 19,
+      "norm_label": ".utilitynexusfixes$translatebeforereplace()"
+    },
+    {
+      "label": "Operation",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_operation",
+      "community": 19,
+      "norm_label": "operation"
+    },
+    {
+      "label": "WrapOperation",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_wrapoperation",
+      "community": 19,
+      "norm_label": "wrapoperation"
+    },
+    {
+      "label": "BvaMixinPlugin.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin",
+      "community": 21,
+      "norm_label": "bvamixinplugin.java"
+    },
+    {
+      "label": "BvaMixinPlugin",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin",
+      "community": 21,
+      "norm_label": "bvamixinplugin"
+    },
+    {
+      "label": "IMixinConfigPlugin",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "imixinconfigplugin",
+      "community": 21,
+      "norm_label": "imixinconfigplugin"
+    },
+    {
+      "label": ".onLoad()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_onload",
+      "community": 21,
+      "norm_label": ".onload()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_java_override",
+      "community": 21,
+      "norm_label": "override"
+    },
+    {
+      "label": ".getRefMapperConfig()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_getrefmapperconfig",
+      "community": 21,
+      "norm_label": ".getrefmapperconfig()"
+    },
+    {
+      "label": ".shouldApplyMixin()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_shouldapplymixin",
+      "community": 21,
+      "norm_label": ".shouldapplymixin()"
+    },
+    {
+      "label": ".acceptTargets()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_accepttargets",
+      "community": 21,
+      "norm_label": ".accepttargets()"
+    },
+    {
+      "label": ".getMixins()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_getmixins",
+      "community": 21,
+      "norm_label": ".getmixins()"
+    },
+    {
+      "label": ".preApply()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_preapply",
+      "community": 21,
+      "norm_label": ".preapply()"
+    },
+    {
+      "label": "ClassNode",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "classnode",
+      "community": 21,
+      "norm_label": "classnode"
+    },
+    {
+      "label": "IMixinInfo",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "imixininfo",
+      "community": 21,
+      "norm_label": "imixininfo"
+    },
+    {
+      "label": ".postApply()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_postapply",
+      "community": 21,
+      "norm_label": ".postapply()"
     },
     {
       "label": "EntityCustomNameLenientMixin.java",
@@ -990,10 +1450,30 @@
       "norm_label": "changelog"
     },
     {
-      "label": "[1.0.0] - 2026-09-09",
+      "label": "[1.1.0] - 2026-09-14",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L5",
+      "_origin": "ast",
+      "id": "changelog_1_1_0_2026_09_14",
+      "community": 13,
+      "norm_label": "[1.1.0] - 2026-09-14"
+    },
+    {
+      "label": "Added",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "changelog_added",
+      "community": 13,
+      "norm_label": "added"
+    },
+    {
+      "label": "[1.0.0] - 2026-09-09",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L10",
       "_origin": "ast",
       "id": "changelog_1_0_0_2026_09_09",
       "community": 13,
@@ -1003,7 +1483,7 @@
       "label": "Summary of the beta line",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L11",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "changelog_summary_of_the_beta_line",
       "community": 13,
@@ -1013,7 +1493,7 @@
       "label": "Notes",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L29",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "changelog_notes",
       "community": 13,
@@ -1023,7 +1503,7 @@
       "label": "[0.0.0-beta.3]",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L33",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3",
       "community": 13,
@@ -1033,9 +1513,9 @@
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L35",
+      "source_location": "L40",
       "_origin": "ast",
-      "id": "changelog_added",
+      "id": "changelog_added_40",
       "community": 13,
       "norm_label": "added"
     },
@@ -1043,7 +1523,7 @@
       "label": "[0.0.0-beta.2]",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L39",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2",
       "community": 13,
@@ -1053,7 +1533,7 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L41",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "changelog_fixed",
       "community": 13,
@@ -1063,7 +1543,7 @@
       "label": "[0.0.0-beta.1]",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L44",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1",
       "community": 13,
@@ -1073,9 +1553,9 @@
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L46",
+      "source_location": "L51",
       "_origin": "ast",
-      "id": "changelog_added_46",
+      "id": "changelog_added_51",
       "community": 13,
       "norm_label": "added"
     },
@@ -1430,6 +1910,16 @@
       "norm_label": "1.0.0.md"
     },
     {
+      "label": "1.1.0.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.1.0.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_1_0",
+      "community": 25,
+      "norm_label": "1.1.0.md"
+    },
+    {
       "file_type": "image",
       "source_file": "src/main/resources/assets/utility_nexus_fixes/icon.png",
       "label": "Icon for Utility Nexus Fixes mod",
@@ -1491,6 +1981,17 @@
       "context": "call",
       "source": "gradlew__entry",
       "target": "gradlew_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup",
+      "target": "src_main_java_com_skd_utilitynexusfixes_utilitynexusfixes",
       "confidence_score": 1.0
     },
     {
@@ -2122,6 +2623,350 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup",
+      "target": "eventbussubscriber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup",
+      "target": "registerclientreloadlistenersevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup_bvaclientsetup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup",
+      "target": "subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup_bvaclientsetup",
+      "target": "eventbussubscriber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup_bvaclientsetup",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup_bvaclientsetup_bvaclientsetup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup_bvaclientsetup",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup_bvaclientsetup_onregisterclientreloadlisteners",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup_bvaclientsetup_onregisterclientreloadlisteners",
+      "target": "registerclientreloadlistenersevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaClientSetup.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvaclientsetup_bvaclientsetup_onregisterclientreloadlisteners",
+      "target": "subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations",
+      "target": "gson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations",
+      "target": "resourcelocation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations",
+      "target": "resourcemanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations",
+      "target": "resourcemanagerreloadlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_java_logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations",
+      "target": "type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations",
+      "target": "gson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations",
+      "target": "resourcelocation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L63",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations",
+      "target": "resourcemanagerreloadlistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_bvadialoguetranslations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_getselectedlanguagecode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_reload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_translate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_java_logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations",
+      "target": "type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_reload",
+      "target": "resourcemanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_translate",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_reload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/compat/bettervillageranimations/BvaDialogueTranslations.java",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_translate",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_getselectedlanguagecode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_bvaconversationmixin_utilitynexusfixes_translatebeforereplace",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_translate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_bvadialoguemixin_utilitynexusfixes_translatebeforereplace",
+      "target": "src_main_java_com_skd_utilitynexusfixes_compat_bettervillageranimations_bvadialoguetranslations_bvadialoguetranslations_translate"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/utilitynexusfixes/config/UNFConfig.java",
       "source_location": "L4",
       "weight": 1.0,
@@ -2521,6 +3366,466 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin",
       "target": "src_main_java_com_skd_utilitynexusfixes_mixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin_attributemaplegacyremapmixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_bvaconversationmixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_pseudo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_wrapoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_bvaconversationmixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_bvaconversationmixin_utilitynexusfixes_translatebeforereplace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_bvaconversationmixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_bvaconversationmixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_pseudo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_bvaconversationmixin_utilitynexusfixes_translatebeforereplace",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaConversationMixin.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_bvaconversationmixin_utilitynexusfixes_translatebeforereplace",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvaconversationmixin_java_wrapoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_bvadialoguemixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_pseudo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_wrapoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_bvadialoguemixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_bvadialoguemixin_utilitynexusfixes_translatebeforereplace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_bvadialoguemixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_bvadialoguemixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_pseudo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_bvadialoguemixin_utilitynexusfixes_translatebeforereplace",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaDialogueMixin.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_bvadialoguemixin_utilitynexusfixes_translatebeforereplace",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvadialoguemixin_java_wrapoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin",
+      "target": "classnode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin",
+      "target": "imixinconfigplugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin",
+      "target": "imixininfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin",
+      "target": "imixinconfigplugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_accepttargets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_getmixins",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_getrefmapperconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_onload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_postapply",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_preapply",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_shouldapplymixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_onload",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_accepttargets",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_getmixins",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_getrefmapperconfig",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_postapply",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_preapply",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_shouldapplymixin",
+      "target": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_preapply",
+      "target": "classnode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_preapply",
+      "target": "imixininfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_postapply",
+      "target": "classnode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_utilitynexusfixes_mixin_bvamixinplugin_bvamixinplugin_postapply",
+      "target": "imixininfo",
       "confidence_score": 1.0
     },
     {
@@ -3162,7 +4467,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L44",
+      "source_location": "L49",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_1",
@@ -3172,7 +4477,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L39",
+      "source_location": "L44",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_2",
@@ -3182,7 +4487,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L33",
+      "source_location": "L38",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_3",
@@ -3192,7 +4497,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L5",
+      "source_location": "L10",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_1_0_0_2026_09_09",
@@ -3202,7 +4507,27 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L29",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_1_1_0_2026_09_14",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "changelog_1_1_0_2026_09_14",
+      "target": "changelog_added",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L34",
       "weight": 1.0,
       "source": "changelog_1_0_0_2026_09_09",
       "target": "changelog_notes",
@@ -3212,7 +4537,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L11",
+      "source_location": "L16",
       "weight": 1.0,
       "source": "changelog_1_0_0_2026_09_09",
       "target": "changelog_summary_of_the_beta_line",
@@ -3222,17 +4547,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L35",
+      "source_location": "L40",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_3",
-      "target": "changelog_added",
+      "target": "changelog_added_40",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L41",
+      "source_location": "L46",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_2",
       "target": "changelog_fixed",
@@ -3242,10 +4567,10 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L46",
+      "source_location": "L51",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_1",
-      "target": "changelog_added_46",
+      "target": "changelog_added_51",
       "confidence_score": 1.0
     },
     {
@@ -3520,5 +4845,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2122546bf60750975262057cb2e44cdc503f3275"
+  "built_at_commit": "cf24a482c9c4a5d63e3324ad214195a251a523e6"
 }

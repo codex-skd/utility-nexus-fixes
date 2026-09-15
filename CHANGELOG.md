@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] - 2026-09-15
+
+### Fixed
+- **`BvaMixinPlugin` crash noise on every launch**: `shouldApplyMixin` called `ModList.get().isLoaded(...)` to gate the two Better Villager Animations soft mixins, but Mixin config plugins are queried while preparing mixin configs, a phase that runs before FML has finished populating `ModList` — so `ModList.get()` returned `null` and every launch logged two `NullPointerException`s wrapped in `InvalidMixinException`. Now guards against `ModList.get()` returning `null` and simply skips the two soft mixins in that case (the correct outcome anyway when `bettervillageranimations` isn't loaded yet), so the log stays clean.
+
 ## [1.1.0] - 2026-09-14
 
 ### Added

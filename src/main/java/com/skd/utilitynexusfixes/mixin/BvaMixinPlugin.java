@@ -33,7 +33,8 @@ public final class BvaMixinPlugin implements IMixinConfigPlugin {
     @Override
     public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
         if (DIALOGUE_MIXIN.equals(mixinClassName) || CONVERSATION_MIXIN.equals(mixinClassName)) {
-            return ModList.get().isLoaded(AFFECTED_MOD_ID);
+            ModList modList = ModList.get();
+            return modList != null && modList.isLoaded(AFFECTED_MOD_ID);
         }
         return true;
     }

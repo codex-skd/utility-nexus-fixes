@@ -1,16 +1,16 @@
-# Graph Report - 1.21.1  (2026-09-14)
+# Graph Report - 1.21.1  (2026-09-15)
 
 ## Corpus Check
-- 29 files · ~50,852 words
+- 30 files · ~51,075 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 191 nodes · 274 edges · 26 communities (23 shown, 3 thin omitted)
+- 194 nodes · 276 edges · 27 communities (24 shown, 3 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cf24a482`
+- Built from commit: `43aaa732`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -42,9 +42,9 @@
 5. `UNFConfig` - 9 edges
 6. `BvaMixinPlugin` - 9 edges
 7. `MixinNetherReturnPortalFix` - 7 edges
-8. `Utility Nexus Fixes` - 7 edges
-9. `Project Variables — Utility Nexus Fixes` - 7 edges
-10. `Changelog` - 6 edges
+8. `Changelog` - 7 edges
+9. `Utility Nexus Fixes` - 7 edges
+10. `Project Variables — Utility Nexus Fixes` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `ModAttachments` --references--> `ReturnPortalData`  [EXTRACTED]
@@ -53,7 +53,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (26 total, 3 thin omitted)
+## Communities (27 total, 3 thin omitted)
 
 ### Community 0 - "Configuration Management"
 Cohesion: 0.25
@@ -88,8 +88,8 @@ Cohesion: 0.25
 Nodes (7): Building from Source, Features, Installation, License, Links, Requirements, Utility Nexus Fixes
 
 ### Community 13 - "Changelog"
-Cohesion: 0.15
-Nodes (12): [0.0.0-beta.1], [0.0.0-beta.2], [0.0.0-beta.3], [1.0.0] - 2026-09-09, [1.1.0] - 2026-09-14, Added, Added, Added (+4 more)
+Cohesion: 0.13
+Nodes (14): [0.0.0-beta.1], [0.0.0-beta.2], [0.0.0-beta.3], [1.0.0] - 2026-09-09, [1.1.0] - 2026-09-14, [1.1.1] - 2026-09-15, Added, Added (+6 more)
 
 ### Community 14 - "CLAUDE.md — utility_nexus_fixes (1.21.1)"
 Cohesion: 0.50
@@ -116,7 +116,7 @@ Cohesion: 0.48
 Nodes (5): BvaConversationMixin, Mixin, Operation, Pseudo, WrapOperation
 
 ## Knowledge Gaps
-- **34 isolated node(s):** `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones`, `Added`, `Summary of the beta line` (+29 more)
+- **35 isolated node(s):** `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones`, `Fixed`, `Added` (+30 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -124,10 +124,12 @@ Nodes (5): BvaConversationMixin, Mixin, Operation, Pseudo, WrapOperation
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ReturnPortalData` connect `PortalKey` to `Configuration Management`, `Mod Initialization`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
 - **What connects `PerformanceSettings`, `Workflow del mod`, `Prioridad de instrucciones` to the rest of the system?**
-  _34 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _35 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Logging Filter` be split into smaller, more focused modules?**
   _Cohesion score 0.12318840579710146 - nodes in this community are weakly interconnected._
 - **Should `Flujo de trabajo — Utility Nexus Fixes (NeoForge)` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+- **Should `Changelog` be split into smaller, more focused modules?**
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._

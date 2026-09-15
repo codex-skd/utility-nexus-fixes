@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1789384296.3834164,
-    "ast_hash": "747c1d6a5fcbfe764be64545d7b7e163",
+    "mtime": 1789475084.984286,
+    "ast_hash": "87a7fb4a794a10c4a67a4311e684d0c7",
     "semantic_hash": ""
   },
   "README.md": {
@@ -145,13 +145,18 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/utilitynexusfixes/mixin/BvaMixinPlugin.java": {
-    "mtime": 1789381736.9403183,
-    "ast_hash": "d01ee73c8b21258bbd71c3d85552c529",
+    "mtime": 1789474966.1802323,
+    "ast_hash": "8a7f5855e188679e14929d502a6d0ab1",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.1.0.md": {
     "mtime": 1789384309.354873,
     "ast_hash": "f3269cb9532ff5b167922f50da2768d4",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.1.1.md": {
+    "mtime": 1789475092.4490626,
+    "ast_hash": "ab98ab8340329d9d504408453602d4de",
     "semantic_hash": ""
   }
 }

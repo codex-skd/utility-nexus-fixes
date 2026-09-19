@@ -13,5 +13,7 @@
     "BvaDialogueMixin",
     "BvaConversationMixin"
   ],
-  "server": []
+  "server": [
+    "BetterPartyMemberHealthGuardMixin"
+  ]
 }

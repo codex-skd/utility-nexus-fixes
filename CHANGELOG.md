@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2026-09-19
+
+### Added
+- **Better Party member-health crash guard** (optional, server-side): `BetterPartyServerApi.memberHealth(ServerPlayer)` falls back to `new PartyMemberHealth(player.getHealth(), player.getMaxHealth())` whenever no custom health-provider add-on is registered, and that record's constructor throws an uncaught `IllegalArgumentException` if either value is non-finite or `maxHealth <= 0` — which propagates out of `BetterParty#onServerTick` and crashes the entire dedicated server mid-tick (observed: `better-party` v1.1.5 on the *(Develop) Mystical Realms* pack, NeoForge 21.1.249, triggered by a single player's corrupted `generic.max_health` attribute). New soft, server-only mixin `BetterPartyMemberHealthGuardMixin` (gated by `BvaMixinPlugin` on `better_party` actually being loaded) wraps the two vanilla `ServerPlayer` accessor calls that feed the record and substitutes a safe finite value if either reading is currently invalid, logging a warning instead of crashing. Does not fix whatever corrupts the attribute in the first place — only stops that corruption from taking the server down.
+
+### Changed
+- `BvaMixinPlugin` generalized from a Better Villager Animations-only gate to a mixin-name -> mod-id map, since Mixin only allows one config plugin per JSON config and the new Better Party guard needed the same soft-mixin gating.
+
 ## [1.1.1] - 2026-09-15
 
 ### Fixed

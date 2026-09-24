@@ -1,0 +1,57 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="https://gitlab.com/stalking-dragons/minecraft/mystical-realms-modpack-fixes"
+logoFile="icon.png"
+credits="Developed by Stalking Dragons"
+description='''Mystical Realms Modpack Fixes - Compatibility patches for third-party mod interactions that otherwise crash or misbehave on the Mystical Realms modpack (e.g. Iris/Sodium version mismatches, Dangerous NeoForge boss health scaling).'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="iris"
+    type="optional"
+    versionRange="[1.8.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="sodium"
+    type="optional"
+    versionRange="[0.8.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="bettervillageranimations"
+    type="optional"
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="better_party"
+    type="optional"
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="SERVER"
+
+[[mixins]]
+config="mystical_realms_modpack_fixes.mixins.json"

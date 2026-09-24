@@ -1,0 +1,40 @@
+# Mystical Realms Modpack Fixes
+
+A compatibility-patch mod for Minecraft NeoForge, fixing crashes and broken interactions between third-party mods that would otherwise require manually pinning mismatched versions.
+
+## Features
+
+- **Iris / Sodium compat patch**: fixes a `ClassNotFoundException` / `MixinTransformerError` crash caused by Iris 1.8.12's Sodium compat mixins referencing a class (`SodiumGameOptions$PerformanceSettings`) that newer Sodium builds (0.8.13+) renamed to `SodiumOptions$PerformanceSettings`.
+- **Log-noise patches**: a mixin that makes malformed entity `CustomName` NBT fall back to plain text (stops per-tick `Failed to parse entity custom name` spam), plus a configurable Log4j2 filter (`logfilter` section of `config/mystical_realms_modpack_fixes/config.toml`) that drops benign stale-NBT lines (`Tried to load invalid item/fluid`, `Ignoring unknown attribute 'forge:'`).
+- **Nether return-portal fix**: remembers, per entity, which exit portal was paired with the portal you entered on an Overworld↔Nether trip, and reuses it on the return trip instead of vanilla's "closest portal" search. Toggle with `fixes.enableNetherReturnPortalFix` in `config/mystical_realms_modpack_fixes/config.toml`.
+
+## Requirements
+
+- Minecraft 1.21.1
+- NeoForge 21.1.249
+- Java 21
+
+## Installation
+
+1. Install NeoForge 21.1.249 for Minecraft 1.21.1
+2. Download the latest release from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mystical-realms-modpack-fixes) or [GitLab](https://gitlab.com/stalking-dragons/minecraft/mystical-realms-modpack-fixes/-/releases)
+3. Place the JAR file in your `mods` folder
+4. Launch Minecraft with the NeoForge profile
+
+## Building from Source
+
+```bash
+./gradlew build
+```
+
+The built JAR will be in `build/libs/`.
+
+## Links
+
+- [GitLab Repository](https://gitlab.com/stalking-dragons/minecraft/mystical-realms-modpack-fixes)
+- [Issues](https://gitlab.com/stalking-dragons/minecraft/mystical-realms-modpack-fixes/-/issues)
+- [Releases](https://gitlab.com/stalking-dragons/minecraft/mystical-realms-modpack-fixes/-/releases)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

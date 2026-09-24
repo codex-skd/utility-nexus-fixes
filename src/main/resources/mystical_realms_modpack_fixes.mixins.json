@@ -1,0 +1,21 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "com.skd.mysticalrealmsmodpackfixes.mixin",
+  "plugin": "com.skd.mysticalrealmsmodpackfixes.mixin.BvaMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "mystical_realms_modpack_fixes.refmap.json",
+  "mixins": [
+    "DangerousBossHealthFixMixin",
+    "EntityCustomNameLenientMixin",
+    "LivingEntityNaNHealthGuardMixin",
+    "MixinNetherReturnPortalFix"
+  ],
+  "client": [
+    "BvaDialogueMixin",
+    "BvaConversationMixin"
+  ],
+  "server": [
+    "BetterPartyMemberHealthGuardMixin"
+  ]
+}
